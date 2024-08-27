@@ -149,7 +149,6 @@ MonoBehaviour:
   btnTeleport2: {fileID: 0}
   image: {fileID: 0}
   soundTeleport: {fileID: 0}
-  smoothLocomotion: {fileID: 0}
 --- !u!1001 &32909933
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12313,6 +12312,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f05fbcb49fe73e41b6ab8285c9d8844, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cameraTransform: {fileID: 1435743326}
+  shakeDuration: 0.05
+  shakeAmount: 0.05
 --- !u!114 &1435743329
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17273,7 +17275,7 @@ PrefabInstance:
     - target: {fileID: 5117709272763234209, guid: 2af1d2045149fe743b81bc4d1a6f8406,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5117709272763234211, guid: 2af1d2045149fe743b81bc4d1a6f8406,
         type: 3}
