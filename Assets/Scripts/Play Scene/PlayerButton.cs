@@ -45,6 +45,15 @@ public class PlayerButton : MonoBehaviour
         }
     }
 
+    public void MoveScene(string sceneName)
+    {
+        if (!handUIController.sceneLoadInProgress)
+        {
+            buttonSound.Play();
+            StartCoroutine(LoadSceneWithFade(sceneName)); // Memanggil coroutine dengan nama scene
+        }
+    }
+
     public void RestartGame()
     {
         if (!handUIController.sceneLoadInProgress)
