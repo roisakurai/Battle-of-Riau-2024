@@ -41,26 +41,48 @@ namespace BNG {
             arrowDamage = ProjectileObject.Damage;
         }
 
-        void FixedUpdate() {
+        // void FixedUpdate() {
 
-            bool beingHeld = grab != null && grab.BeingHeld;
+        //     bool beingHeld = grab != null && grab.BeingHeld;
 
-            // Align arrow with velocity
-            if (!beingHeld && rb != null && rb.velocity != Vector3.zero && Flying && ZVel > 0.02) {
-                rb.rotation = Quaternion.LookRotation(rb.velocity);
-            }
+        //     // Align arrow with velocity
+        //     if (!beingHeld && rb != null && rb.velocity != Vector3.zero && Flying && ZVel > 0.02) {
+        //         rb.rotation = Quaternion.LookRotation(rb.velocity);
+        //     }
 
-            ZVel = transform.InverseTransformDirection(rb.velocity).z;
+        //     ZVel = transform.InverseTransformDirection(rb.velocity).z;
 
-            if (Flying) {
-                flightTime += Time.fixedDeltaTime;
-            }
+        //     if (Flying) {
+        //         flightTime += Time.fixedDeltaTime;
+        //     }
 
-            // Cancel Destroy if we just picked this up
-            if(queueDestroy != null && grab != null && grab.BeingHeld) {
-                StopCoroutine(queueDestroy);
-            }
+        //     // Cancel Destroy if we just picked this up
+        //     if(queueDestroy != null && grab != null && grab.BeingHeld) {
+        //         StopCoroutine(queueDestroy);
+        //     }
+        // }
+void FixedUpdate() {
+    if (grab != null && grab.BeingHeld) {
+        // Cancel Destroy if we just picked this up
+        if(queueDestroy != null) {
+            StopCoroutine(queueDestroy);
         }
+    }
+
+    // Align arrow with velocity only if Rigidbody exists and is not being held
+    if (rb != null && !grab.BeingHeld && Flying) {
+        if (rb.velocity != Vector3.zero && ZVel > 0.02) {
+            rb.rotation = Quaternion.LookRotation(rb.velocity);
+        }
+
+        ZVel = transform.InverseTransformDirection(rb.velocity).z;
+    }
+
+    if (Flying) {
+        flightTime += Time.fixedDeltaTime;
+    }
+}
+
 
         public void ShootArrow(Vector3 shotForce) {
 
