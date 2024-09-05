@@ -2112,7 +2112,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   arrowDamage: 10
-  groundHitSound: {fileID: 8300000, guid: a6c4dd9e3dc68fe499cc7e8c16e315d8, type: 3}
+  groundHitSound: {fileID: 8300000, guid: 232c6380d8bd2a94db5b916b1d35512d, type: 3}
   enemyHitSound: {fileID: 8300000, guid: c673e16c8982a474c83ce07436b22631, type: 3}
 --- !u!1 &788403267355979243
 GameObject:
