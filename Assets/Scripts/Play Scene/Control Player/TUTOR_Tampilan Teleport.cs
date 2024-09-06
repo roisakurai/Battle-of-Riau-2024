@@ -6,10 +6,10 @@ public class TUTOR_TampilanTeleport : MonoBehaviour
 {
     public GameObject TampilanTeleport;
 
-    private void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter(Collider other)
     {
         // Ganti "YourTag" dengan tag yang sesuai yang ingin diperiksa
-        if(collision.gameObject.CompareTag("Player")) 
+        if(other.CompareTag("Player")) 
         {
             TampilanTeleport.SetActive(true);
         }

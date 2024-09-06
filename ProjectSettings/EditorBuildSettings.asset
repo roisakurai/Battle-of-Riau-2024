@@ -27,8 +27,14 @@ EditorBuildSettings:
     path: Assets/Scenes/6-2 Play Scene.unity
     guid: b162bf3b733ba2146b2bca2c20a64eee
   - enabled: 1
+    path: Assets/Scenes/Tutorial Teleport.unity
+    guid: 00e11a25aebe99048b8aa934454bd431
+  - enabled: 1
     path: Assets/Scenes/Tutorial Cannon.unity
     guid: 84473900785df164eaf06380faeb38cb
+  - enabled: 1
+    path: Assets/Scenes/Tutorial Panah.unity
+    guid: 8645c2d2e8b1ce34188f9993a692aea5
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: d3192288b900b0e4f9410f4e24dcbed6,
       type: 2}
