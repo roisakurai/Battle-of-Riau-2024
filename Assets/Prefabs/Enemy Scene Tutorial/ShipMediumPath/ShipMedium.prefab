@@ -943,7 +943,7 @@ GameObject:
   - component: {fileID: 5707686896965456231}
   - component: {fileID: 1844493204427879570}
   - component: {fileID: 3626805655116544464}
-  - component: {fileID: 5713853476568340746}
+  - component: {fileID: 7109353277021247896}
   m_Layer: 11
   m_Name: ShipMedium
   m_TagString: Untagged
@@ -1082,7 +1082,7 @@ MonoBehaviour:
   bezierTangentLength: 0.4
   offset: 0.2
   factor: 0.1
---- !u!114 &5713853476568340746
+--- !u!114 &7109353277021247896
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1095,7 +1095,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  target: {fileID: 72535070926923091, guid: 4acf02f6d6ac28247bc90117f873a863, type: 3}
+  target: {fileID: 1410639762273856514, guid: 4acf02f6d6ac28247bc90117f873a863, type: 3}
 --- !u!1 &2359612014119151031
 GameObject:
   m_ObjectHideFlags: 0
