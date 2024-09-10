@@ -2,31 +2,23 @@ using UnityEngine;
 
 public class TUTOR_TampilanNextScene : MonoBehaviour
 {
-    // Objek yang akan dihancurkan
-    public GameObject[] objectsToDestroy;
+    public GameObject Enemy1;
+    public GameObject Enemy2;
+    public GameObject Enemy3;
+    public GameObject Finish;
 
-    // Objek yang akan muncul setelah ketiga objek dihancurkan
-    public GameObject objectToSpawn;
-
-    // Jumlah objek yang telah dihancurkan
-    private int destroyedCount = 0;
-
-    void Start()
+    void Update()
     {
-        // Memastikan objek yang akan muncul tidak aktif saat mulai
-        objectToSpawn.SetActive(false);
+        ShowNextScene();
     }
 
-    public void ObjectDestroyed()
+    void ShowNextScene()
     {
-        // Menambahkan jumlah objek yang dihancurkan
-        destroyedCount++;
-
-        // Cek jika tiga objek sudah dihancurkan
-        if (destroyedCount >= 3)
+        if ((Enemy1 == null || !Enemy1.activeSelf) &&
+            (Enemy2 == null || !Enemy2.activeSelf) &&
+            (Enemy3 == null || !Enemy3.activeSelf))
         {
-            // Mengaktifkan objek yang akan muncul
-            objectToSpawn.SetActive(true);
+            Finish.SetActive(true);
         }
     }
 }
