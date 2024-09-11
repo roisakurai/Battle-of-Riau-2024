@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3142343704875081897}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Toes_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41,7 +41,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6398785860407428578}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Elbow_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -73,7 +73,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3054497803181019080}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Finger_01.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -105,7 +105,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5148478683854810044}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Finger_02.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -137,7 +137,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3752806493449965526}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Clavicle_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -169,7 +169,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7950988379471075443}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Finger_03.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -201,7 +201,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2270421450360103034}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Eyebrows
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -234,7 +234,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5618939292117453569}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: LowerLeg_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -266,7 +266,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1598987958704457032}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -299,7 +299,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4421066526380411411}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: IndexFinger_04_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -332,7 +332,7 @@ GameObject:
   - component: {fileID: 4930006003931254383}
   - component: {fileID: 8955638635507737822}
   - component: {fileID: 5006023738612168743}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: SM_Wep_Sabre_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -413,7 +413,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 792396269509232872}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Spine_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -445,7 +445,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4286560474994956990}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Thumb_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -477,7 +477,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5352151291276534049}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: IndexFinger_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -509,7 +509,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5611262246270351949}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: IndexFinger_01.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -541,7 +541,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5013369922705147361}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: IndexFinger_04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -573,7 +573,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4729333732678565243}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: LowerLeg_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -605,7 +605,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7925145473404072456}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: UpperLeg_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -637,7 +637,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 822969103477732851}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Thumb_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -669,7 +669,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 754194199126197754}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Thumb_02.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -701,7 +701,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4579327010185149897}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Elbow_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -733,7 +733,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4953238489867620121}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Spine_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -765,7 +765,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5432366672136596069}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Eyes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -798,7 +798,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6045386312098958281}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Finger_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -830,7 +830,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8422794758742304744}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Toes_R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -861,7 +861,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8170244828557523623}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: SoldierAI1 W1 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -877,7 +877,7 @@ Transform:
   m_GameObject: {fileID: 1281883786044144257}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.32800293, y: 2.8796406, z: -1.32}
+  m_LocalPosition: {x: 0.77, y: 2.8796406, z: -1.32}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -893,7 +893,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5917210544796003756}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Thumb_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -928,7 +928,7 @@ GameObject:
   - component: {fileID: 4273670068849655}
   - component: {fileID: 7921290489286147715}
   - component: {fileID: 5266368597025686640}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1030,7 +1030,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7142129269465916385}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: IndexFinger_03.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1062,7 +1062,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 579341548636529938}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Finger_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1094,7 +1094,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 219058877250727411}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: IndexFinger_04.001_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1125,7 +1125,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4773193029471904860}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Spine_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1157,7 +1157,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2092346130417125745}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Thumb_03.001_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1188,7 +1188,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3173418677040900336}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Elbow_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1220,7 +1220,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3225836367767801218}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Toes_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1252,7 +1252,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5373914759308107123}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Clavicle_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1284,7 +1284,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4869475368455553080}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: IndexFinger_02.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1316,7 +1316,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1067529499237543080}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Toes_L_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1347,7 +1347,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4018661206155656612}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: IndexFinger_04.001_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1378,7 +1378,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 868906390453540804}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Finger_03.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1411,7 +1411,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1075742474994352547}
   - component: {fileID: 32084096942852062}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Character_Kapten_Belanda
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1544,7 +1544,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8812584329424063116}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Finger_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1576,7 +1576,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7997208155487063937}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: IndexFinger_01.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1608,7 +1608,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7093249145657643880}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Explosion
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1646,7 +1646,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1137879311114037376}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Thumb_03.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1678,7 +1678,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7622126728772352796}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Finger_02.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1710,7 +1710,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4853645854003761503}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: UpperLeg_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1742,7 +1742,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8635334964856799163}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: IndexFinger_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1774,7 +1774,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4951752874108582607}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ankle_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1797,6 +1797,111 @@ Transform:
   - {fileID: 4351208500358351058}
   m_Father: {fileID: 4216174456765471177}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &3229088462808082554
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1738981903769572425}
+  - component: {fileID: 6471288926578622085}
+  - component: {fileID: 242993859970741086}
+  - component: {fileID: 9105612930289298671}
+  m_Layer: 7
+  m_Name: Falling Soldier Transform (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1738981903769572425
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3229088462808082554}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 3.04, y: 3.4279995, z: 2.3875084}
+  m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 1764855639460708222}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &6471288926578622085
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3229088462808082554}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &242993859970741086
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3229088462808082554}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!135 &9105612930289298671
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3229088462808082554}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3269522346830110203
 GameObject:
   m_ObjectHideFlags: 0
@@ -1806,7 +1911,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6307098908022870146}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Spine_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1838,7 +1943,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1241009222700870325}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: LowerLeg_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1870,7 +1975,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1235731148045375052}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Thumb_01.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1902,7 +2007,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5207356611645659519}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Hand_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1936,7 +2041,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 230758549506978993}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Thumb_02.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1968,7 +2073,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7934931102794437331}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: IndexFinger_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2000,7 +2105,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7072615636744060349}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Fire
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2046,7 +2151,7 @@ GameObject:
   - component: {fileID: 3408034205848032213}
   - component: {fileID: 4813990606798258528}
   - component: {fileID: 8635053087425021788}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2148,7 +2253,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3358887716005433398}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Clavicle_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2180,7 +2285,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6639434744608533022}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Finger_01.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2212,7 +2317,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4525939536598661702}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Hand_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2246,7 +2351,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 842751778759716098}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Finger_04.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2278,7 +2383,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5506773961940953930}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: IndexFinger_04.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2310,7 +2415,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4872452685904982357}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Thumb_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2342,7 +2447,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8238982210837258687}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Finger_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2374,7 +2479,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2684969857214397176}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Finger_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2406,7 +2511,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8518217380871598282}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Toes_R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2437,7 +2542,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6936544066463021317}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Thumb_03_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2468,7 +2573,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7511567963810941757}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Toes_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2500,7 +2605,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5700998170829298276}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Finger_04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2532,7 +2637,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5219559183883492671}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ankle_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2564,7 +2669,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8135743466732137989}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Eyebrows_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2595,7 +2700,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7199406331268319494}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Fire
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2628,7 +2733,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 834208327848582970}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Hips
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2663,7 +2768,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2010754225510166453}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: IndexFinger_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2695,7 +2800,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4796112330014095398}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ankle_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2727,7 +2832,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8080690154601525442}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Eyes_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2758,7 +2863,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6452293494449946337}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Finger_04_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2789,7 +2894,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4902766267563687529}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Shoulder_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2827,8 +2932,8 @@ GameObject:
   - component: {fileID: 881578186580506889}
   - component: {fileID: 1646430779777856658}
   - component: {fileID: 1945379892099524763}
-  - component: {fileID: 246881639841431687}
-  m_Layer: 0
+  - component: {fileID: 4135843309212918666}
+  m_Layer: 7
   m_Name: Character_Kapten_Belanda
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -3059,7 +3164,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &246881639841431687
+--- !u!114 &4135843309212918666
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3083,7 +3188,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6800900448441839915}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: UpperLeg_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3115,7 +3220,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6106362312464037775}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Finger_04.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3147,7 +3252,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7286992878284575706}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Clavicle_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3179,7 +3284,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6142005139558825732}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Thumb_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3211,7 +3316,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3289625286026580802}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Armature
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3243,7 +3348,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7672479083549471018}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Thumb_03_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3274,7 +3379,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3571002055736147675}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Eyebrows_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3305,7 +3410,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7058623070258762556}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: IndexFinger_04.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3337,7 +3442,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8282193551856526917}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Toes_L_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3368,7 +3473,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 350756428185174117}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: UpperLeg_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3454,7 +3559,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1372572591531749392}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Fire
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3493,7 +3598,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1907677129039533213}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Thumb_03.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3527,7 +3632,7 @@ GameObject:
   - component: {fileID: 1100529642374552953}
   - component: {fileID: 7157881451563264433}
   - component: {fileID: 3549483660799123921}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: SM_Wep_Sabre_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3611,7 +3716,7 @@ GameObject:
   - component: {fileID: 4858612881827351333}
   - component: {fileID: 2758274221723335589}
   - component: {fileID: 4845570244661426903}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Falling Soldier Transform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3698,7 +3803,7 @@ SphereCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -3713,7 +3818,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8793045978534940547}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Thumb_01.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3745,7 +3850,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2905117734960029012}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ball_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3777,7 +3882,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1479138971567434628}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ball_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3809,7 +3914,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6248284131896905657}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Finger_04.001_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3840,7 +3945,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4004371022707610236}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: IndexFinger_04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3875,7 +3980,7 @@ GameObject:
   - component: {fileID: 5315857772206855780}
   - component: {fileID: 7873177862230390453}
   - component: {fileID: 2870007723657048825}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3978,7 +4083,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7168076186215497968}
   - component: {fileID: 4101806894503668910}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Character_Kapten_Belanda
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4111,7 +4216,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6933945689052726875}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Root
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4143,7 +4248,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2148382315772699301}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Finger_04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4175,7 +4280,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9205175415298486239}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Elbow_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4207,7 +4312,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6729617878669622204}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Finger_04_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4241,7 +4346,7 @@ GameObject:
   - component: {fileID: 4124760524529162730}
   - component: {fileID: 40961040362000418}
   - component: {fileID: 3252007775873645968}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4343,7 +4448,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 302618817477511371}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: SoldierAI1 W1 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4375,7 +4480,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4482405224562497888}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ball_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4407,7 +4512,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2062747840317323692}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Eyes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4440,7 +4545,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5714629005775872622}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Toes_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4472,7 +4577,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 983791246236590328}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Thumb_03.001_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4503,7 +4608,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8466424038991801465}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Neck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4540,14 +4645,13 @@ GameObject:
   - component: {fileID: 4752608613495362570}
   - component: {fileID: 3123214483569023074}
   - component: {fileID: -933462917872807653}
-  - component: {fileID: 5668137602795425108}
   m_Layer: 11
   m_Name: ShipAI1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &2297778783445039334
 Transform:
   m_ObjectHideFlags: 0
@@ -4679,28 +4783,6 @@ MonoBehaviour:
   - {fileID: 6125924648719053579, guid: 194f55c0542e9884ab7d9861ebcbc0c0, type: 3}
   - {fileID: 3446201750996833155, guid: c20bb0df068b46949a7412d07b671e11, type: 3}
   delay: 0
---- !u!114 &5668137602795425108
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7549123377464236414}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: af9125fd31774d342a4fe76b2e62606b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  fires:
-  - {fileID: 5905304575327300216}
-  - {fileID: 3645998450062637683}
-  soldiers:
-  - {fileID: 4814640541047099964}
-  - {fileID: 9113625228417556199}
-  teleportPoints:
-  - {fileID: 8911188521878894759}
-  fallSpeed: 0.00000001
-  fallHeight: 5
 --- !u!1 &7635763694892829129
 GameObject:
   m_ObjectHideFlags: 0
@@ -4710,7 +4792,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6595058581815532873}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Patrol Pathway
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4745,7 +4827,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 326596641824233678}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Eyes_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4776,7 +4858,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1283036817752788256}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Shoulder_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4808,7 +4890,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4216174456765471177}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: LowerLeg_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4840,7 +4922,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2074550593465977246}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Root
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4872,7 +4954,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1042175740743778376}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Shoulder_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4904,7 +4986,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8986404399244064833}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Hips
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4939,7 +5021,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4351208500358351058}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ball_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4971,7 +5053,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 852255010573968686}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5004,7 +5086,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2969012630834832169}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: IndexFinger_04_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5035,7 +5117,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5088411225410985543}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Spine_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5069,7 +5151,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 160201884667623692}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: IndexFinger_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5101,7 +5183,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5278057919324112560}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Thumb_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5133,7 +5215,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 674495572664134744}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: IndexFinger_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5165,7 +5247,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6272225308836664014}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Finger_04.001_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5196,7 +5278,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 828221083486736672}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Spine_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5230,7 +5312,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7437926924463945782}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Neck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5263,7 +5345,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4205379323809255178}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Hand_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5297,7 +5379,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4306230639444240706}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Fire
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5330,7 +5412,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2436671596621310180}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Shoulder_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5362,7 +5444,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3578632106464329507}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Finger_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5394,7 +5476,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6812123505815093078}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Eyebrows
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5427,7 +5509,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8886548324883983798}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ankle_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5459,7 +5541,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6157844264362342819}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Armature
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5491,7 +5573,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4747837288816609166}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: IndexFinger_03.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5529,8 +5611,8 @@ GameObject:
   - component: {fileID: 4564995011629669640}
   - component: {fileID: 5877705774353243294}
   - component: {fileID: 7584784736683375769}
-  - component: {fileID: 2310575452726005212}
-  m_Layer: 0
+  - component: {fileID: 6856057792127865567}
+  m_Layer: 7
   m_Name: Character_Kapten_Belanda
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -5761,7 +5843,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &2310575452726005212
+--- !u!114 &6856057792127865567
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5785,7 +5867,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6892711625690697311}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: IndexFinger_02.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5817,7 +5899,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6977730986547333434}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Hand_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5859,6 +5941,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Intensity
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2421574060090945586, guid: c60357c46a159754eba03905357f7e16,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 2421574060677634804, guid: c60357c46a159754eba03905357f7e16,
         type: 3}
@@ -5915,6 +6002,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: CFXR Fire Crisp (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 2421574060677634809, guid: c60357c46a159754eba03905357f7e16,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3829858664936882482, guid: c60357c46a159754eba03905357f7e16,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3829858664936882482, guid: c60357c46a159754eba03905357f7e16,
         type: 3}
       propertyPath: m_IsActive
@@ -5950,6 +6047,11 @@ PrefabInstance:
       propertyPath: InitialModule.startLifetime.minScalar
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6532363894264428037, guid: c60357c46a159754eba03905357f7e16,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5969,20 +6071,50 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 7093249145657643880}
     m_Modifications:
+    - target: {fileID: 4188488071361250786, guid: f39eaecc55ebc4f40bca23c8f4500759,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4188488071424179576, guid: f39eaecc55ebc4f40bca23c8f4500759,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 4188488071424179578, guid: f39eaecc55ebc4f40bca23c8f4500759,
         type: 3}
       propertyPath: m_Materials.Array.size
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4188488071492443396, guid: f39eaecc55ebc4f40bca23c8f4500759,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4188488071492443398, guid: f39eaecc55ebc4f40bca23c8f4500759,
         type: 3}
       propertyPath: m_Materials.Array.size
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4188488071816414914, guid: f39eaecc55ebc4f40bca23c8f4500759,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 4188488072079314164, guid: f39eaecc55ebc4f40bca23c8f4500759,
         type: 3}
       propertyPath: m_Materials.Array.size
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4188488072079314170, guid: f39eaecc55ebc4f40bca23c8f4500759,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4188488072118922836, guid: f39eaecc55ebc4f40bca23c8f4500759,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4188488072118922839, guid: f39eaecc55ebc4f40bca23c8f4500759,
         type: 3}
@@ -6051,6 +6183,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4188488072830444616, guid: f39eaecc55ebc4f40bca23c8f4500759,
         type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4188488072830444616, guid: f39eaecc55ebc4f40bca23c8f4500759,
+        type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
@@ -6092,6 +6229,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Intensity
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2421574060090945586, guid: c60357c46a159754eba03905357f7e16,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 2421574060677634804, guid: c60357c46a159754eba03905357f7e16,
         type: 3}
@@ -6148,6 +6290,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: CFXR Fire Crisp (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 2421574060677634809, guid: c60357c46a159754eba03905357f7e16,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3829858664936882482, guid: c60357c46a159754eba03905357f7e16,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3829858664936882482, guid: c60357c46a159754eba03905357f7e16,
         type: 3}
       propertyPath: m_IsActive
@@ -6183,6 +6335,11 @@ PrefabInstance:
       propertyPath: InitialModule.startLifetime.minScalar
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6532363894264428037, guid: c60357c46a159754eba03905357f7e16,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6211,6 +6368,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Intensity
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2421574060090945586, guid: c60357c46a159754eba03905357f7e16,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 2421574060677634804, guid: c60357c46a159754eba03905357f7e16,
         type: 3}
@@ -6267,6 +6429,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: CFXR Fire Crisp (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 2421574060677634809, guid: c60357c46a159754eba03905357f7e16,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3829858664936882482, guid: c60357c46a159754eba03905357f7e16,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3829858664936882482, guid: c60357c46a159754eba03905357f7e16,
         type: 3}
       propertyPath: m_IsActive
@@ -6302,6 +6474,11 @@ PrefabInstance:
       propertyPath: InitialModule.startLifetime.minScalar
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6532363894264428037, guid: c60357c46a159754eba03905357f7e16,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6325,6 +6502,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: 1 Small ship
+      objectReference: {fileID: 0}
+    - target: {fileID: 197414343886835919, guid: 226eb3584559db244be0567b57c646db,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 717914986315336309, guid: 226eb3584559db244be0567b57c646db,
         type: 3}
@@ -6376,6 +6558,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1568622200608708299, guid: 226eb3584559db244be0567b57c646db,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3748519724000624022, guid: 226eb3584559db244be0567b57c646db,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6718002883858507086, guid: 226eb3584559db244be0567b57c646db,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -6395,6 +6592,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 8911188521878894759}
+    - targetCorrespondingSourceObject: {fileID: 717914986315336309, guid: 226eb3584559db244be0567b57c646db,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1738981903769572425}
     - targetCorrespondingSourceObject: {fileID: 717914986315336309, guid: 226eb3584559db244be0567b57c646db,
         type: 3}
       insertIndex: -1
@@ -6484,6 +6685,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 9115112611644515045}
+    - targetCorrespondingSourceObject: {fileID: 197414343886835919, guid: 226eb3584559db244be0567b57c646db,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8181790451259246296}
   m_SourcePrefab: {fileID: 100100000, guid: 226eb3584559db244be0567b57c646db, type: 3}
 --- !u!1 &1384248266661963204 stripped
 GameObject:
@@ -6863,6 +7068,27 @@ MonoBehaviour:
   m_MinRegionArea: 2
   m_NavMeshData: {fileID: 23800000, guid: fbea7bcc471af984ca639dcae45f7d97, type: 2}
   m_BuildHeightMesh: 0
+--- !u!114 &8181790451259246296
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1384248266661963204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af9125fd31774d342a4fe76b2e62606b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fires:
+  - {fileID: 5905304575327300216}
+  - {fileID: 3645998450062637683}
+  soldiers:
+  - {fileID: 4814640541047099964}
+  - {fileID: 9113625228417556199}
+  teleportPoints:
+  - {fileID: 8911188521878894759}
+  - {fileID: 1738981903769572425}
 --- !u!4 &1764855639460708222 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 717914986315336309, guid: 226eb3584559db244be0567b57c646db,
@@ -6889,20 +7115,50 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 7093249145657643880}
     m_Modifications:
+    - target: {fileID: 4188488071361250786, guid: f39eaecc55ebc4f40bca23c8f4500759,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4188488071424179576, guid: f39eaecc55ebc4f40bca23c8f4500759,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 4188488071424179578, guid: f39eaecc55ebc4f40bca23c8f4500759,
         type: 3}
       propertyPath: m_Materials.Array.size
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4188488071492443396, guid: f39eaecc55ebc4f40bca23c8f4500759,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4188488071492443398, guid: f39eaecc55ebc4f40bca23c8f4500759,
         type: 3}
       propertyPath: m_Materials.Array.size
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4188488071816414914, guid: f39eaecc55ebc4f40bca23c8f4500759,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 4188488072079314164, guid: f39eaecc55ebc4f40bca23c8f4500759,
         type: 3}
       propertyPath: m_Materials.Array.size
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4188488072079314170, guid: f39eaecc55ebc4f40bca23c8f4500759,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4188488072118922836, guid: f39eaecc55ebc4f40bca23c8f4500759,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4188488072118922839, guid: f39eaecc55ebc4f40bca23c8f4500759,
         type: 3}
@@ -6971,6 +7227,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4188488072830444616, guid: f39eaecc55ebc4f40bca23c8f4500759,
         type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4188488072830444616, guid: f39eaecc55ebc4f40bca23c8f4500759,
+        type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
@@ -7012,6 +7273,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Intensity
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2421574060090945586, guid: c60357c46a159754eba03905357f7e16,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 2421574060677634804, guid: c60357c46a159754eba03905357f7e16,
         type: 3}
@@ -7068,6 +7334,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: CFXR Fire Crisp (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 2421574060677634809, guid: c60357c46a159754eba03905357f7e16,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3829858664936882482, guid: c60357c46a159754eba03905357f7e16,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3829858664936882482, guid: c60357c46a159754eba03905357f7e16,
         type: 3}
       propertyPath: m_IsActive
@@ -7103,6 +7379,11 @@ PrefabInstance:
       propertyPath: InitialModule.startLifetime.minScalar
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6532363894264428037, guid: c60357c46a159754eba03905357f7e16,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7131,6 +7412,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Intensity
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2421574060090945586, guid: c60357c46a159754eba03905357f7e16,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 2421574060677634804, guid: c60357c46a159754eba03905357f7e16,
         type: 3}
@@ -7187,6 +7473,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: CFXR Fire Crisp (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 2421574060677634809, guid: c60357c46a159754eba03905357f7e16,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3829858664936882482, guid: c60357c46a159754eba03905357f7e16,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3829858664936882482, guid: c60357c46a159754eba03905357f7e16,
         type: 3}
       propertyPath: m_IsActive
@@ -7222,6 +7518,11 @@ PrefabInstance:
       propertyPath: InitialModule.startLifetime.minScalar
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6532363894264428037, guid: c60357c46a159754eba03905357f7e16,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7250,6 +7551,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Intensity
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2421574060090945586, guid: c60357c46a159754eba03905357f7e16,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 2421574060677634804, guid: c60357c46a159754eba03905357f7e16,
         type: 3}
@@ -7306,6 +7612,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: CFXR Fire Crisp (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 2421574060677634809, guid: c60357c46a159754eba03905357f7e16,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3829858664936882482, guid: c60357c46a159754eba03905357f7e16,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3829858664936882482, guid: c60357c46a159754eba03905357f7e16,
         type: 3}
       propertyPath: m_IsActive
@@ -7341,6 +7657,11 @@ PrefabInstance:
       propertyPath: InitialModule.startLifetime.minScalar
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6532363894264428037, guid: c60357c46a159754eba03905357f7e16,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7360,6 +7681,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 7093249145657643880}
     m_Modifications:
+    - target: {fileID: 725748389098120080, guid: 4bda94453d2ca7444a0fff05b2d425f5,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 725748389098120094, guid: 4bda94453d2ca7444a0fff05b2d425f5,
         type: 3}
       propertyPath: m_Materials.Array.size
@@ -7369,6 +7695,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Intensity
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 725748389192728894, guid: 4bda94453d2ca7444a0fff05b2d425f5,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 725748389856807712, guid: 4bda94453d2ca7444a0fff05b2d425f5,
         type: 3}
@@ -7384,6 +7715,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: CFXR Explosion Smoke 2 Solo (HDR) (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 725748389856807714, guid: 4bda94453d2ca7444a0fff05b2d425f5,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 725748389856807714, guid: 4bda94453d2ca7444a0fff05b2d425f5,
         type: 3}
@@ -7445,10 +7781,20 @@ PrefabInstance:
       propertyPath: m_Materials.Array.size
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 725748390055121426, guid: 4bda94453d2ca7444a0fff05b2d425f5,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 725748390129463916, guid: 4bda94453d2ca7444a0fff05b2d425f5,
         type: 3}
       propertyPath: m_Materials.Array.size
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 725748390129463918, guid: 4bda94453d2ca7444a0fff05b2d425f5,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7585,6 +7931,11 @@ PrefabInstance:
       propertyPath: m_Intensity
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2421574060090945586, guid: c60357c46a159754eba03905357f7e16,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 2421574060677634804, guid: c60357c46a159754eba03905357f7e16,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7640,6 +7991,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: CFXR Fire Crisp (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 2421574060677634809, guid: c60357c46a159754eba03905357f7e16,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3829858664936882482, guid: c60357c46a159754eba03905357f7e16,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3829858664936882482, guid: c60357c46a159754eba03905357f7e16,
         type: 3}
       propertyPath: m_IsActive
@@ -7675,6 +8036,11 @@ PrefabInstance:
       propertyPath: InitialModule.startLifetime.minScalar
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6532363894264428037, guid: c60357c46a159754eba03905357f7e16,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7703,6 +8069,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Intensity
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2421574060090945586, guid: c60357c46a159754eba03905357f7e16,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 2421574060677634804, guid: c60357c46a159754eba03905357f7e16,
         type: 3}
@@ -7759,6 +8130,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: CFXR Fire Crisp (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 2421574060677634809, guid: c60357c46a159754eba03905357f7e16,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3829858664936882482, guid: c60357c46a159754eba03905357f7e16,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3829858664936882482, guid: c60357c46a159754eba03905357f7e16,
         type: 3}
       propertyPath: m_IsActive
@@ -7794,6 +8175,11 @@ PrefabInstance:
       propertyPath: InitialModule.startLifetime.minScalar
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6532363894264428037, guid: c60357c46a159754eba03905357f7e16,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7822,6 +8208,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Intensity
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2421574060090945586, guid: c60357c46a159754eba03905357f7e16,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 2421574060677634804, guid: c60357c46a159754eba03905357f7e16,
         type: 3}
@@ -7878,6 +8269,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: CFXR Fire Crisp (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 2421574060677634809, guid: c60357c46a159754eba03905357f7e16,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3829858664936882482, guid: c60357c46a159754eba03905357f7e16,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3829858664936882482, guid: c60357c46a159754eba03905357f7e16,
         type: 3}
       propertyPath: m_IsActive
@@ -7913,6 +8314,11 @@ PrefabInstance:
       propertyPath: InitialModule.startLifetime.minScalar
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6532363894264428037, guid: c60357c46a159754eba03905357f7e16,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7932,20 +8338,50 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 7093249145657643880}
     m_Modifications:
+    - target: {fileID: 4188488071361250786, guid: f39eaecc55ebc4f40bca23c8f4500759,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4188488071424179576, guid: f39eaecc55ebc4f40bca23c8f4500759,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 4188488071424179578, guid: f39eaecc55ebc4f40bca23c8f4500759,
         type: 3}
       propertyPath: m_Materials.Array.size
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4188488071492443396, guid: f39eaecc55ebc4f40bca23c8f4500759,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4188488071492443398, guid: f39eaecc55ebc4f40bca23c8f4500759,
         type: 3}
       propertyPath: m_Materials.Array.size
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4188488071816414914, guid: f39eaecc55ebc4f40bca23c8f4500759,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 4188488072079314164, guid: f39eaecc55ebc4f40bca23c8f4500759,
         type: 3}
       propertyPath: m_Materials.Array.size
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4188488072079314170, guid: f39eaecc55ebc4f40bca23c8f4500759,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4188488072118922836, guid: f39eaecc55ebc4f40bca23c8f4500759,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4188488072118922839, guid: f39eaecc55ebc4f40bca23c8f4500759,
         type: 3}
@@ -8014,6 +8450,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4188488072830444616, guid: f39eaecc55ebc4f40bca23c8f4500759,
         type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4188488072830444616, guid: f39eaecc55ebc4f40bca23c8f4500759,
+        type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
@@ -8055,6 +8496,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Intensity
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2421574060090945586, guid: c60357c46a159754eba03905357f7e16,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 2421574060677634804, guid: c60357c46a159754eba03905357f7e16,
         type: 3}
@@ -8111,6 +8557,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: CFXR Fire Crisp (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 2421574060677634809, guid: c60357c46a159754eba03905357f7e16,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3829858664936882482, guid: c60357c46a159754eba03905357f7e16,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3829858664936882482, guid: c60357c46a159754eba03905357f7e16,
         type: 3}
       propertyPath: m_IsActive
@@ -8146,6 +8602,11 @@ PrefabInstance:
       propertyPath: InitialModule.startLifetime.minScalar
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6532363894264428037, guid: c60357c46a159754eba03905357f7e16,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8174,6 +8635,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Intensity
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2421574060090945586, guid: c60357c46a159754eba03905357f7e16,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 2421574060677634804, guid: c60357c46a159754eba03905357f7e16,
         type: 3}
@@ -8230,6 +8696,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: CFXR Fire Crisp (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2421574060677634809, guid: c60357c46a159754eba03905357f7e16,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3829858664936882482, guid: c60357c46a159754eba03905357f7e16,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3829858664936882482, guid: c60357c46a159754eba03905357f7e16,
         type: 3}
       propertyPath: m_IsActive
@@ -8265,6 +8741,11 @@ PrefabInstance:
       propertyPath: InitialModule.startLifetime.minScalar
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6532363894264428037, guid: c60357c46a159754eba03905357f7e16,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8293,6 +8774,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Intensity
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2421574060090945586, guid: c60357c46a159754eba03905357f7e16,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 2421574060677634804, guid: c60357c46a159754eba03905357f7e16,
         type: 3}
@@ -8349,6 +8835,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: CFXR Fire Crisp (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 2421574060677634809, guid: c60357c46a159754eba03905357f7e16,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3829858664936882482, guid: c60357c46a159754eba03905357f7e16,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3829858664936882482, guid: c60357c46a159754eba03905357f7e16,
         type: 3}
       propertyPath: m_IsActive
@@ -8384,6 +8880,11 @@ PrefabInstance:
       propertyPath: InitialModule.startLifetime.minScalar
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6532363894264428037, guid: c60357c46a159754eba03905357f7e16,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8412,6 +8913,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Intensity
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2421574060090945586, guid: c60357c46a159754eba03905357f7e16,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 2421574060677634804, guid: c60357c46a159754eba03905357f7e16,
         type: 3}
@@ -8468,6 +8974,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: CFXR Fire Crisp (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 2421574060677634809, guid: c60357c46a159754eba03905357f7e16,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3829858664936882482, guid: c60357c46a159754eba03905357f7e16,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3829858664936882482, guid: c60357c46a159754eba03905357f7e16,
         type: 3}
       propertyPath: m_IsActive
@@ -8503,6 +9019,11 @@ PrefabInstance:
       propertyPath: InitialModule.startLifetime.minScalar
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6532363894264428037, guid: c60357c46a159754eba03905357f7e16,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8536,6 +9057,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: CFXR Fire (circle) (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2582430159885675525, guid: bcc074927ac10b2418c810175c149a32,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 2582430159885675528, guid: bcc074927ac10b2418c810175c149a32,
         type: 3}
@@ -8607,6 +9133,11 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2582430160464987854, guid: bcc074927ac10b2418c810175c149a32,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3993547596806485963, guid: bcc074927ac10b2418c810175c149a32,
         type: 3}
       propertyPath: InitialModule.startSize.scalar
@@ -8637,6 +9168,16 @@ PrefabInstance:
       propertyPath: InitialModule.startLifetime.minScalar
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3993547596806485966, guid: bcc074927ac10b2418c810175c149a32,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6406955485147676921, guid: bcc074927ac10b2418c810175c149a32,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8665,6 +9206,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Intensity
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2421574060090945586, guid: c60357c46a159754eba03905357f7e16,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 2421574060677634804, guid: c60357c46a159754eba03905357f7e16,
         type: 3}
@@ -8721,6 +9267,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: CFXR Fire Crisp
       objectReference: {fileID: 0}
+    - target: {fileID: 2421574060677634809, guid: c60357c46a159754eba03905357f7e16,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3829858664936882482, guid: c60357c46a159754eba03905357f7e16,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3829858664936882482, guid: c60357c46a159754eba03905357f7e16,
         type: 3}
       propertyPath: m_IsActive
@@ -8756,6 +9312,11 @@ PrefabInstance:
       propertyPath: InitialModule.startLifetime.minScalar
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6532363894264428037, guid: c60357c46a159754eba03905357f7e16,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8789,6 +9350,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: CFXR Fire (circle) (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2582430159885675525, guid: bcc074927ac10b2418c810175c149a32,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 2582430159885675528, guid: bcc074927ac10b2418c810175c149a32,
         type: 3}
@@ -8860,6 +9426,11 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2582430160464987854, guid: bcc074927ac10b2418c810175c149a32,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3993547596806485963, guid: bcc074927ac10b2418c810175c149a32,
         type: 3}
       propertyPath: InitialModule.startSize.scalar
@@ -8889,6 +9460,16 @@ PrefabInstance:
         type: 3}
       propertyPath: InitialModule.startLifetime.minScalar
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3993547596806485966, guid: bcc074927ac10b2418c810175c149a32,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6406955485147676921, guid: bcc074927ac10b2418c810175c149a32,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8923,6 +9504,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: CFXR Fire (circle)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2582430159885675525, guid: bcc074927ac10b2418c810175c149a32,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 2582430159885675528, guid: bcc074927ac10b2418c810175c149a32,
         type: 3}
@@ -8994,6 +9580,11 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2582430160464987854, guid: bcc074927ac10b2418c810175c149a32,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3993547596806485963, guid: bcc074927ac10b2418c810175c149a32,
         type: 3}
       propertyPath: InitialModule.startSize.scalar
@@ -9024,6 +9615,16 @@ PrefabInstance:
       propertyPath: InitialModule.startLifetime.minScalar
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3993547596806485966, guid: bcc074927ac10b2418c810175c149a32,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6406955485147676921, guid: bcc074927ac10b2418c810175c149a32,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9043,20 +9644,50 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 7093249145657643880}
     m_Modifications:
+    - target: {fileID: 4188488071361250786, guid: f39eaecc55ebc4f40bca23c8f4500759,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4188488071424179576, guid: f39eaecc55ebc4f40bca23c8f4500759,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 4188488071424179578, guid: f39eaecc55ebc4f40bca23c8f4500759,
         type: 3}
       propertyPath: m_Materials.Array.size
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4188488071492443396, guid: f39eaecc55ebc4f40bca23c8f4500759,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4188488071492443398, guid: f39eaecc55ebc4f40bca23c8f4500759,
         type: 3}
       propertyPath: m_Materials.Array.size
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4188488071816414914, guid: f39eaecc55ebc4f40bca23c8f4500759,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 4188488072079314164, guid: f39eaecc55ebc4f40bca23c8f4500759,
         type: 3}
       propertyPath: m_Materials.Array.size
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4188488072079314170, guid: f39eaecc55ebc4f40bca23c8f4500759,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4188488072118922836, guid: f39eaecc55ebc4f40bca23c8f4500759,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4188488072118922839, guid: f39eaecc55ebc4f40bca23c8f4500759,
         type: 3}
@@ -9125,6 +9756,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4188488072830444616, guid: f39eaecc55ebc4f40bca23c8f4500759,
         type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4188488072830444616, guid: f39eaecc55ebc4f40bca23c8f4500759,
+        type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
@@ -9157,6 +9793,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 7093249145657643880}
     m_Modifications:
+    - target: {fileID: 725748389098120080, guid: 4bda94453d2ca7444a0fff05b2d425f5,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 725748389098120094, guid: 4bda94453d2ca7444a0fff05b2d425f5,
         type: 3}
       propertyPath: m_Materials.Array.size
@@ -9166,6 +9807,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Intensity
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 725748389192728894, guid: 4bda94453d2ca7444a0fff05b2d425f5,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 725748389856807712, guid: 4bda94453d2ca7444a0fff05b2d425f5,
         type: 3}
@@ -9181,6 +9827,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: CFXR Explosion Smoke 2 Solo (HDR)
+      objectReference: {fileID: 0}
+    - target: {fileID: 725748389856807714, guid: 4bda94453d2ca7444a0fff05b2d425f5,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 725748389856807714, guid: 4bda94453d2ca7444a0fff05b2d425f5,
         type: 3}
@@ -9242,10 +9893,20 @@ PrefabInstance:
       propertyPath: m_Materials.Array.size
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 725748390055121426, guid: 4bda94453d2ca7444a0fff05b2d425f5,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 725748390129463916, guid: 4bda94453d2ca7444a0fff05b2d425f5,
         type: 3}
       propertyPath: m_Materials.Array.size
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 725748390129463918, guid: 4bda94453d2ca7444a0fff05b2d425f5,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9382,6 +10043,11 @@ PrefabInstance:
       propertyPath: m_Intensity
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2421574060090945586, guid: c60357c46a159754eba03905357f7e16,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 2421574060677634804, guid: c60357c46a159754eba03905357f7e16,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9437,6 +10103,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: CFXR Fire Crisp (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 2421574060677634809, guid: c60357c46a159754eba03905357f7e16,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3829858664936882482, guid: c60357c46a159754eba03905357f7e16,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3829858664936882482, guid: c60357c46a159754eba03905357f7e16,
         type: 3}
       propertyPath: m_IsActive
@@ -9472,6 +10148,11 @@ PrefabInstance:
       propertyPath: InitialModule.startLifetime.minScalar
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6532363894264428037, guid: c60357c46a159754eba03905357f7e16,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9500,6 +10181,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Intensity
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2421574060090945586, guid: c60357c46a159754eba03905357f7e16,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 2421574060677634804, guid: c60357c46a159754eba03905357f7e16,
         type: 3}
@@ -9556,6 +10242,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: CFXR Fire Crisp (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 2421574060677634809, guid: c60357c46a159754eba03905357f7e16,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3829858664936882482, guid: c60357c46a159754eba03905357f7e16,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3829858664936882482, guid: c60357c46a159754eba03905357f7e16,
         type: 3}
       propertyPath: m_IsActive
@@ -9591,6 +10287,11 @@ PrefabInstance:
       propertyPath: InitialModule.startLifetime.minScalar
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6532363894264428037, guid: c60357c46a159754eba03905357f7e16,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9619,6 +10320,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Intensity
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2421574060090945586, guid: c60357c46a159754eba03905357f7e16,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 2421574060677634804, guid: c60357c46a159754eba03905357f7e16,
         type: 3}
@@ -9675,6 +10381,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: CFXR Fire Crisp (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 2421574060677634809, guid: c60357c46a159754eba03905357f7e16,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3829858664936882482, guid: c60357c46a159754eba03905357f7e16,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3829858664936882482, guid: c60357c46a159754eba03905357f7e16,
         type: 3}
       propertyPath: m_IsActive
@@ -9710,6 +10426,11 @@ PrefabInstance:
       propertyPath: InitialModule.startLifetime.minScalar
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6532363894264428037, guid: c60357c46a159754eba03905357f7e16,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9738,6 +10459,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Intensity
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2421574060090945586, guid: c60357c46a159754eba03905357f7e16,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 2421574060677634804, guid: c60357c46a159754eba03905357f7e16,
         type: 3}
@@ -9794,6 +10520,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: CFXR Fire Crisp (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2421574060677634809, guid: c60357c46a159754eba03905357f7e16,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3829858664936882482, guid: c60357c46a159754eba03905357f7e16,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3829858664936882482, guid: c60357c46a159754eba03905357f7e16,
         type: 3}
       propertyPath: m_IsActive
@@ -9829,6 +10565,11 @@ PrefabInstance:
       propertyPath: InitialModule.startLifetime.minScalar
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6532363894264428037, guid: c60357c46a159754eba03905357f7e16,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9862,6 +10603,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: CFXR Fire (circle) (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2582430159885675525, guid: bcc074927ac10b2418c810175c149a32,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 2582430159885675528, guid: bcc074927ac10b2418c810175c149a32,
         type: 3}
@@ -9933,6 +10679,11 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2582430160464987854, guid: bcc074927ac10b2418c810175c149a32,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3993547596806485963, guid: bcc074927ac10b2418c810175c149a32,
         type: 3}
       propertyPath: InitialModule.startSize.scalar
@@ -9963,6 +10714,16 @@ PrefabInstance:
       propertyPath: InitialModule.startLifetime.minScalar
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3993547596806485966, guid: bcc074927ac10b2418c810175c149a32,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6406955485147676921, guid: bcc074927ac10b2418c810175c149a32,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9991,6 +10752,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Intensity
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2421574060090945586, guid: c60357c46a159754eba03905357f7e16,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 2421574060677634804, guid: c60357c46a159754eba03905357f7e16,
         type: 3}
@@ -10047,6 +10813,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: CFXR Fire Crisp (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 2421574060677634809, guid: c60357c46a159754eba03905357f7e16,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3829858664936882482, guid: c60357c46a159754eba03905357f7e16,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3829858664936882482, guid: c60357c46a159754eba03905357f7e16,
         type: 3}
       propertyPath: m_IsActive
@@ -10082,6 +10858,11 @@ PrefabInstance:
       propertyPath: InitialModule.startLifetime.minScalar
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6532363894264428037, guid: c60357c46a159754eba03905357f7e16,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10110,6 +10891,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Intensity
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2421574060090945586, guid: c60357c46a159754eba03905357f7e16,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 2421574060677634804, guid: c60357c46a159754eba03905357f7e16,
         type: 3}
@@ -10166,6 +10952,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: CFXR Fire Crisp (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 2421574060677634809, guid: c60357c46a159754eba03905357f7e16,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3829858664936882482, guid: c60357c46a159754eba03905357f7e16,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3829858664936882482, guid: c60357c46a159754eba03905357f7e16,
         type: 3}
       propertyPath: m_IsActive
@@ -10201,6 +10997,11 @@ PrefabInstance:
       propertyPath: InitialModule.startLifetime.minScalar
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6532363894264428037, guid: c60357c46a159754eba03905357f7e16,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10220,6 +11021,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 7093249145657643880}
     m_Modifications:
+    - target: {fileID: 725748389098120080, guid: 4bda94453d2ca7444a0fff05b2d425f5,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 725748389098120094, guid: 4bda94453d2ca7444a0fff05b2d425f5,
         type: 3}
       propertyPath: m_Materials.Array.size
@@ -10229,6 +11035,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Intensity
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 725748389192728894, guid: 4bda94453d2ca7444a0fff05b2d425f5,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 725748389856807712, guid: 4bda94453d2ca7444a0fff05b2d425f5,
         type: 3}
@@ -10244,6 +11055,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: CFXR Explosion Smoke 2 Solo (HDR)
+      objectReference: {fileID: 0}
+    - target: {fileID: 725748389856807714, guid: 4bda94453d2ca7444a0fff05b2d425f5,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 725748389856807714, guid: 4bda94453d2ca7444a0fff05b2d425f5,
         type: 3}
@@ -10305,10 +11121,20 @@ PrefabInstance:
       propertyPath: m_Materials.Array.size
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 725748390055121426, guid: 4bda94453d2ca7444a0fff05b2d425f5,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 725748390129463916, guid: 4bda94453d2ca7444a0fff05b2d425f5,
         type: 3}
       propertyPath: m_Materials.Array.size
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 725748390129463918, guid: 4bda94453d2ca7444a0fff05b2d425f5,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
