@@ -1,47 +1,25 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class SoldierFalling : MonoBehaviour
+public class SoldierFalling : MonoBehaviour 
 {
-    public ParticleSystem waterEffects; // Referensi ke particle system untuk efek air
-    public AudioClip soundWater; // Referensi ke sound clip untuk suara air
-    private AudioSource audioSource;
-    private bool waterPlayed = false; // Cek apakah efek air sudah dimainkan
+    public AudioClip soundWater;           // Clip suara air
+    public ParticleSystem waterEffect;     // Efek partikel air
+    private AudioSource audioSource;       // Audio source untuk memainkan suara
 
-    void Start()
-    {
-        // Menambahkan komponen AudioSource untuk memainkan suara
+    private void Start() {
+        // Menambahkan AudioSource ke objek dan menyimpannya ke dalam variabel
         audioSource = gameObject.AddComponent<AudioSource>();
-    }
+    }   
 
-    private void OnTriggerEnter(Collider other)
-    {
-        if (other.CompareTag("Water") && !waterPlayed)
+    private void OnTriggerEnter(Collider other) {
+        // Jika objek yang bersentuhan memiliki tag "Water"
+        if(other.CompareTag("Water"))
         {
-            // Mainkan efek dan suara ketika prajurit menyentuh air
-            PlayEffectsAndSound(soundWater, waterEffects);
-
-            // Tandai bahwa efek sudah dimainkan
-            waterPlayed = true;
-
-            // Mulai coroutine untuk menghancurkan game object setelah 1 detik
-            StartCoroutine(DestroyAfterDelay(1f));
+            Debug.Log("Bunyi");
+            // Memainkan suara air menggunakan AudioSource
+            audioSource.PlayOneShot(soundWater);
+            // Memainkan efek partikel air
+            waterEffect.Play();
         }
-    }
-
-    // Method untuk memainkan efek dan suara
-    private void PlayEffectsAndSound(AudioClip sound, ParticleSystem effects)
-    {
-        audioSource.PlayOneShot(sound); // Mainkan suara air
-        effects.transform.position = transform.position; // Pindahkan partikel ke posisi prajurit
-        effects.Play(); // Mainkan efek partikel air
-    }
-
-    // Coroutine untuk menghancurkan game object setelah delay
-    private IEnumerator DestroyAfterDelay(float delay)
-    {
-        yield return new WaitForSeconds(delay);
-        Destroy(gameObject);
     }
 }

@@ -8,7 +8,6 @@ public class FireTrigger : MonoBehaviour
     public GameObject[] fires; // Daftar game object api
     public GameObject[] soldiers; // Daftar prajurit di kapal
     public Transform[] teleportPoints; // Titik-titik teleport prajurit (di samping kapal)
-
     private NavMeshAgent[] navMeshAgents;
     private bool[] isTeleported;
 
