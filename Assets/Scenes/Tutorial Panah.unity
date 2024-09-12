@@ -14704,8 +14704,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
-  m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
+  m_sharedMaterial: {fileID: 2100000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -24552,6 +24552,74 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2138591593}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &872812992021736213
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1430061111121457684, guid: f5c38beb9f7b8bf44bdf8061ac7e6642,
+        type: 3}
+      propertyPath: m_Name
+      value: Left Hand Take
+      objectReference: {fileID: 0}
+    - target: {fileID: 1770840083412215982, guid: f5c38beb9f7b8bf44bdf8061ac7e6642,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -44.602
+      objectReference: {fileID: 0}
+    - target: {fileID: 1770840083412215982, guid: f5c38beb9f7b8bf44bdf8061ac7e6642,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 6.59
+      objectReference: {fileID: 0}
+    - target: {fileID: 1770840083412215982, guid: f5c38beb9f7b8bf44bdf8061ac7e6642,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 25.72
+      objectReference: {fileID: 0}
+    - target: {fileID: 1770840083412215982, guid: f5c38beb9f7b8bf44bdf8061ac7e6642,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1770840083412215982, guid: f5c38beb9f7b8bf44bdf8061ac7e6642,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1770840083412215982, guid: f5c38beb9f7b8bf44bdf8061ac7e6642,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1770840083412215982, guid: f5c38beb9f7b8bf44bdf8061ac7e6642,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1770840083412215982, guid: f5c38beb9f7b8bf44bdf8061ac7e6642,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1770840083412215982, guid: f5c38beb9f7b8bf44bdf8061ac7e6642,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1770840083412215982, guid: f5c38beb9f7b8bf44bdf8061ac7e6642,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f5c38beb9f7b8bf44bdf8061ac7e6642, type: 3}
 --- !u!1001 &4764804113934105521
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24932,3 +25000,4 @@ SceneRoots:
   - {fileID: 429174644}
   - {fileID: 1498843164}
   - {fileID: 1691082569}
+  - {fileID: 872812992021736213}
