@@ -1,40 +1,21 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.XR.Interaction.Toolkit;
 
 public class TUTOR_RemoveTutorialHand : MonoBehaviour
 {
-    public GameObject LeftHand; // Referensi ke GameObject tangan tutorial
+    public GameObject LeftHand;
+    public GameObject RightHand;
 
-    private XRGrabInteractable grabInteractable;
+    public UnityEngine.Events.UnityEvent Grabbed;
 
-    private void Start()
+    private void OnTriggerEnter(Collider other)
     {
-        // Mendapatkan komponen XRGrabInteractable dari objek ini
-        grabInteractable = GetComponent<XRGrabInteractable>();
-
-        // Mendaftarkan event saat obor di-grab atau dilepaskan
-        grabInteractable.selectEntered.AddListener(OnGrabbed);
-        grabInteractable.selectExited.AddListener(OnReleased);
-    }
-
-    private void OnGrabbed(SelectEnterEventArgs args)
-    {
-        // Ketika obor dipegang, sembunyikan tangan tutorial
-        LeftHand.SetActive(false);
-    }
-
-    private void OnReleased(SelectExitEventArgs args)
-    {
-        // Ketika obor dilepaskan, tangan tutorial bisa ditampilkan kembali (opsional)
-        LeftHand.SetActive(true);
-    }
-
-    private void OnDestroy()
-    {
-        // Melepaskan event listener untuk menghindari kebocoran memori
-        grabInteractable.selectEntered.RemoveListener(OnGrabbed);
-        grabInteractable.selectExited.RemoveListener(OnReleased);
+        // Memeriksa apakah objek yang masuk adalah LeftHand atau RightHand
+        if (other.gameObject == LeftHand || other.gameObject == RightHand)
+        {
+            Debug.Log("Hand entered the collider.");
+            Grabbed.Invoke(); // Memanggil event Grabbed saat LeftHand atau RightHand masuk
+        }
     }
 }
