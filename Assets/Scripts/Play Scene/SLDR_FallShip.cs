@@ -17,37 +17,45 @@ public class SLDR_FallShip : MonoBehaviour
         hasSoldierFallen = new bool[SoldierShips.Length];
     }
 
-    private void Update()
+private void Update()
+{
+    for (int i = 0; i < Fires.Length; i++)
     {
-        for (int i = 0; i < Fires.Length; i++)
+        // Mengecek apakah Game Object Fire aktif
+        if (Fires[i].activeInHierarchy)
         {
-            // Mengecek apakah Game Object Fire aktif
-            if (Fires[i].activeInHierarchy)
-            {
-                // Hidupkan SoldierFall dan hancurkan SoldierShip
-                SoldierFalls[i].SetActive(true);
+            // Hidupkan SoldierFall dan hancurkan SoldierShip
+            SoldierFalls[i].SetActive(true);
 
-                if (!hasSoldierFallen[i])
+            if (!hasSoldierFallen[i])
+            {
+                // Pastikan SoldierShip masih ada sebelum menghancurkannya
+                if (SoldierShips[i] != null)
                 {
-                    Destroy(SoldierShips[i]);  // Hancurkan SoldierShip
+                    SoldierShips[i].SetActive(false);  // Nonaktifkan SoldierShip daripada menghancurkannya
                     hasSoldierFallen[i] = true;
                     StartCoroutine(DestroyAfterActiveTime(SoldierFalls[i], soldierFallActiveTime));
                 }
             }
-            else
-            {
-                // Matikan SoldierFall dan hidupkan kembali SoldierShip
-                SoldierFalls[i].SetActive(false);
+        }
+        else
+        {
+            // Matikan SoldierFall dan hidupkan kembali SoldierShip
+            SoldierFalls[i].SetActive(false);
 
-                if (hasSoldierFallen[i])
+            if (hasSoldierFallen[i])
+            {
+                // Pastikan SoldierShip belum dihancurkan sebelum menghidupkannya kembali
+                if (SoldierShips[i] != null)
                 {
-                    // Menghidupkan kembali SoldierShip jika sudah jatuh sebelumnya
                     SoldierShips[i].SetActive(true);
                     hasSoldierFallen[i] = false;
                 }
             }
         }
     }
+}
+
 
     private IEnumerator DestroyAfterActiveTime(GameObject soldierFall, float activeTime)
     {
