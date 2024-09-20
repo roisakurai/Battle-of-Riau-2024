@@ -2,10 +2,10 @@ using UnityEngine;
 
 public class SoldierController : MonoBehaviour
 {
-    public int maxHealth = 100;
+    public int maxHealth;
     public Healthbar healthbar;
 
-    private float currentHealth;
+    public float currentHealth;
     private Animator animator;
 
     public int addPoints = 10;
@@ -15,6 +15,20 @@ public class SoldierController : MonoBehaviour
         currentHealth = maxHealth;
         healthbar.UpdateHealthbar(maxHealth, currentHealth);
         animator = GetComponent<Animator>();
+    }
+    void DestroyEnemy()
+    {
+        Destroy(gameObject);
+        ButtonActivator buttonActivator = FindObjectOfType<ButtonActivator>();
+        if (buttonActivator != null)
+        {
+            buttonActivator.IncrementFallDownCount();
+        }
+        CanvasActivator canvasActivator = FindObjectOfType<CanvasActivator>();
+        if (canvasActivator != null)
+        {
+            canvasActivator.IncrementFallDownCount();
+        }
     }
 
     public void TakeDamage(int damageAmount)
@@ -57,18 +71,5 @@ public class SoldierController : MonoBehaviour
         Invoke(nameof(DestroyEnemy), 3f);
     }
 
-    void DestroyEnemy()
-    {
-        Destroy(gameObject);
-        ButtonActivator buttonActivator = FindObjectOfType<ButtonActivator>();
-        if (buttonActivator != null)
-        {
-            buttonActivator.IncrementFallDownCount();
-        }
-        CanvasActivator canvasActivator = FindObjectOfType<CanvasActivator>();
-        if (canvasActivator != null)
-        {
-            canvasActivator.IncrementFallDownCount();
-        }
-    }
+
 }

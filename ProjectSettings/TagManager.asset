@@ -15,6 +15,7 @@ TagManager:
   - ArrowSpawner
   - lb_bird
   - Arrow
+  - Explosion
   layers:
   - Default
   - TransparentFX

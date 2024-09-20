@@ -17,36 +17,38 @@ public class SLDR_FallShip : MonoBehaviour
         hasSoldierFallen = new bool[SoldierShips.Length];
     }
 
-private void Update()
-{
-    for (int i = 0; i < Fires.Length; i++)
+    private void Update()
     {
-        // Mengecek apakah Game Object Fire aktif
-        if (Fires[i].activeInHierarchy)
+        for (int i = 0; i < Fires.Length; i++)
         {
-            // Hidupkan SoldierFall dan hancurkan SoldierShip
-            SoldierFalls[i].SetActive(true);
-
-            if (!hasSoldierFallen[i])
+            // Mengecek apakah Game Object Fire aktif
+            if (Fires[i].activeInHierarchy)
             {
-                // Pastikan SoldierShip masih ada sebelum menghancurkannya
-                if (SoldierShips[i] != null)
+                // Hidupkan SoldierFall
+                if (SoldierFalls[i] != null)
                 {
-                    SoldierShips[i].SetActive(false);  // Nonaktifkan SoldierShip daripada menghancurkannya
+                    SoldierFalls[i].SetActive(true);
+                }
+
+                if (!hasSoldierFallen[i] && SoldierShips[i] != null)
+                {
+                    // Nonaktifkan SoldierShip tanpa menghancurkannya
+                    SoldierShips[i].SetActive(false);  
                     hasSoldierFallen[i] = true;
+                    
+                    // Mulai penghancuran SoldierFall setelah waktu aktif habis
                     StartCoroutine(DestroyAfterActiveTime(SoldierFalls[i], soldierFallActiveTime));
                 }
             }
-        }
-        else
-        {
-            // Matikan SoldierFall dan hidupkan kembali SoldierShip
-            SoldierFalls[i].SetActive(false);
-
-            if (hasSoldierFallen[i])
+            else
             {
-                // Pastikan SoldierShip belum dihancurkan sebelum menghidupkannya kembali
-                if (SoldierShips[i] != null)
+                // Matikan SoldierFall dan hidupkan kembali SoldierShip
+                if (SoldierFalls[i] != null)
+                {
+                    SoldierFalls[i].SetActive(false);
+                }
+
+                if (hasSoldierFallen[i] && SoldierShips[i] != null)
                 {
                     SoldierShips[i].SetActive(true);
                     hasSoldierFallen[i] = false;
@@ -54,13 +56,13 @@ private void Update()
             }
         }
     }
-}
-
 
     private IEnumerator DestroyAfterActiveTime(GameObject soldierFall, float activeTime)
     {
         yield return new WaitForSeconds(activeTime);
-        if (soldierFall.activeInHierarchy)
+        
+        // Periksa lagi apakah objek masih ada sebelum menghancurkannya
+        if (soldierFall != null && soldierFall.activeInHierarchy)
         {
             Destroy(soldierFall);
         }

@@ -1465,7 +1465,7 @@ Transform:
   m_GameObject: {fileID: 1342186318658067046}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.3899994, y: 2.8796406, z: -3.3530006}
+  m_LocalPosition: {x: 0.18, y: 4.07, z: -9.18}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3894,7 +3894,7 @@ MonoBehaviour:
   m_OverrideVoxelSize: 0
   m_VoxelSize: 0.16666667
   m_MinRegionArea: 2
-  m_NavMeshData: {fileID: 23800000, guid: 93b1d4923940d934ea605482fe16137b, type: 2}
+  m_NavMeshData: {fileID: 23800000, guid: 97769acde9bac434a9a68ff90cf1db7f, type: 2}
   m_BuildHeightMesh: 0
 --- !u!114 &3892425142284031783
 MonoBehaviour:
@@ -5130,12 +5130,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d73aa1b4f8e018458dd7fd975970e53, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  patrolPoints:
-  - {fileID: 6134718317272520501}
-  - {fileID: 1576105611504873926}
-  - {fileID: 105651938380345529}
-  - {fileID: 5219431100672471232}
-  patrolSpeed: 0.8
+  patrolSpeed: 10
+  walkRadius: 20
+  movingPlatform: {fileID: 7698979308535699843}
 --- !u!54 &7924574811368417521
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -8744,7 +8741,7 @@ Transform:
   m_GameObject: {fileID: 5367261901278252513}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.5400009, y: 2.8796406, z: -3.2799988}
+  m_LocalPosition: {x: -0.07, y: 2.8796406, z: 7.8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -12369,12 +12366,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d73aa1b4f8e018458dd7fd975970e53, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  patrolPoints:
-  - {fileID: 6134718317272520501}
-  - {fileID: 1576105611504873926}
-  - {fileID: 105651938380345529}
-  - {fileID: 5219431100672471232}
-  patrolSpeed: 0.8
+  patrolSpeed: 10
+  walkRadius: 20
+  movingPlatform: {fileID: 7698979308535699843}
 --- !u!54 &5011078548693366035
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -15258,12 +15252,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d73aa1b4f8e018458dd7fd975970e53, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  patrolPoints:
-  - {fileID: 6134718317272520501}
-  - {fileID: 1576105611504873926}
-  - {fileID: 105651938380345529}
-  - {fileID: 5219431100672471232}
-  patrolSpeed: 0.8
+  patrolSpeed: 10
+  walkRadius: 20
+  movingPlatform: {fileID: 7698979308535699843}
 --- !u!54 &8398272310925247650
 Rigidbody:
   m_ObjectHideFlags: 0

@@ -7,9 +7,6 @@ public class Arrow : MonoBehaviour
     public AudioClip enemyHitSound;   // Tambahkan AudioClip untuk suara ketika mengenai musuh
     private AudioSource audioSource;  // Komponen AudioSource untuk memutar suara
 
-    private const string GroundTag = "Ground";
-    private const string EnemyTag = "Enemy";
-
     private void Start()
     {
         // Inisialisasi AudioSource
@@ -18,14 +15,14 @@ public class Arrow : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.CompareTag(GroundTag))
+        if (collision.gameObject.CompareTag("Ground"))
         {
             PlaySound(groundHitSound);  // Mainkan suara ketika mengenai tanah
             DisableArrow();
             return;
         }
 
-        if (collision.gameObject.CompareTag(EnemyTag))
+        if (collision.gameObject.CompareTag("Enemy"))
         {
             if (collision.gameObject.TryGetComponent<SoldierController>(out var enemyHP))
             {
