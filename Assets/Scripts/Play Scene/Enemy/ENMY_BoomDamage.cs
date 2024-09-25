@@ -18,6 +18,17 @@ public class ENMY_BoomDamage : MonoBehaviour
             {
                 enemyHP.TakeDamage(BoomDamage);
             }
+            Die();
         }
+    }
+
+    void Die()
+    {
+        Invoke(nameof(DestroyBoom),1f);
+    }
+
+    void DestroyBoom()
+    {
+        Destroy(gameObject);
     }
 }

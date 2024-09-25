@@ -23,30 +23,31 @@ public class ENMY_Boom : MonoBehaviour
         Explosion.SetActive(true);
 
         source.Play();
-
-        Collider[] enemies = Physics.OverlapSphere(transform.position, range);
-
-        foreach (Collider enemy in enemies)
-        {
-            if (enemy.GetComponent<Enemy>() != null)
-            {
-                enemy.GetComponent<Enemy>().KillEnemy(transform.position);
-            }
-        }
-
         this.enabled = false;
     }
 
-    private void Update()
+    private void OnTriggerEnter(Collider other)
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (other.CompareTag("Arrow"))
         {
             Explode();
+            Destroy(other.gameObject);
+            Die();
         }
     }
 
     private void OnDrawGizmos()
     {
         Gizmos.DrawWireSphere(transform.position, range);
+    }
+    
+    void Die()
+    {
+        Invoke(nameof(DestroyBoom),2f);
+    }
+
+    void DestroyBoom()
+    {
+        Destroy(gameObject);
     }
 }
