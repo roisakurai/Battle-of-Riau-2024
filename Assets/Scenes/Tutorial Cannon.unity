@@ -46874,6 +46874,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1306804476}
+  - component: {fileID: 1306804477}
   m_Layer: 5
   m_Name: Info Teleport
   m_TagString: Untagged
@@ -46903,6 +46904,21 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 2.421502}
   m_SizeDelta: {x: 30, y: 15.5529995}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1306804477
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1306804475}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd66a09c39dc45d448fdf73428962a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  distance: 3
+  cameraTransform: {fileID: 7783413572316487194}
+  followSpeed: 0.8
 --- !u!1001 &1307093870
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -69072,7 +69088,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 4281545571
   m_fontColor: {r: 0.3882353, g: 0.2, b: 0.2, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
