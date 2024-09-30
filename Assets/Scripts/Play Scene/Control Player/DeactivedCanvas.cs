@@ -6,6 +6,7 @@ public class DeactivedCanvas : MonoBehaviour
 {
     public Canvas canvas;
     public float canvasDeactivateDelay = 15f;
+    public GameObject teleportMap;
 
     void Start()
     {
@@ -18,6 +19,7 @@ public class DeactivedCanvas : MonoBehaviour
         if (canvas != null)
         {
             canvas.gameObject.SetActive(false);
+            teleportMap.SetActive(true);
         }
     }
 }
