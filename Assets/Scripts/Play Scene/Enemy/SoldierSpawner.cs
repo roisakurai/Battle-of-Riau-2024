@@ -47,4 +47,9 @@ public class SoldierSpawner : MonoBehaviour
 
         Instantiate(randomEnemyPrefab, spawnPosition, Quaternion.identity);
     }
+
+    public int GetCurrentSpawnCount()
+    {
+        return currentSpawnCount;
+    }
 }
