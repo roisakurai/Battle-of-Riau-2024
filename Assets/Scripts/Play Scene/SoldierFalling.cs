@@ -12,14 +12,31 @@ public class SoldierFalling : MonoBehaviour
     }   
 
     private void OnTriggerEnter(Collider other) {
-        // Jika objek yang bersentuhan memiliki tag "Water"
-        if(other.CompareTag("Water"))
+    // Jika objek yang bersentuhan memiliki tag "Water"
+    if (other.CompareTag("Water"))
+    {
+        Debug.Log("Bunyi");
+        
+        // Cek apakah audioSource dan soundWater tidak null
+        if (audioSource != null && soundWater != null)
         {
-            Debug.Log("Bunyi");
-            // Memainkan suara air menggunakan AudioSource
             audioSource.PlayOneShot(soundWater);
-            // Memainkan efek partikel air
+        }
+        else
+        {
+            Debug.LogWarning("AudioSource atau soundWater belum diisi!");
+        }
+        
+        // Cek apakah waterEffect tidak null
+        if (waterEffect != null)
+        {
             waterEffect.Play();
         }
+        else
+        {
+            Debug.LogWarning("WaterEffect belum diisi!");
+        }
     }
+}
+
 }
