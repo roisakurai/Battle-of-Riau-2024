@@ -4,7 +4,7 @@ public class ButtonActivator : MonoBehaviour
 {
     public GameObject nextButton;
     public int fallDownCountThreshold = 6;
-
+    public GameObject Cannon_NPC;
     private int fallDownCount = 0;
 
     private void Start()
@@ -17,6 +17,7 @@ public class ButtonActivator : MonoBehaviour
         if (fallDownCount >= fallDownCountThreshold)
         {
             nextButton.SetActive(true);
+            Destroy(Cannon_NPC);
         }
     }
 

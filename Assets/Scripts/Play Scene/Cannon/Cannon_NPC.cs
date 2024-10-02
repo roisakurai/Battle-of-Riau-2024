@@ -8,6 +8,7 @@ public class Cannon_NPC : MonoBehaviour
     public ParticleSystem smokeEffect;
     private float lastFireTime = 0f;
     public float fireCooldown = 5f; // Set ke 5 detik
+    public float delayStart;
     private AudioSource audioSource;
     private float cannonballForce => VariableManager.instance.cannonballForce;
     private float cannonballLifetime => VariableManager.instance.cannonballLifetime;
@@ -20,6 +21,8 @@ public class Cannon_NPC : MonoBehaviour
 
     IEnumerator AutoFire()
     {
+        yield return new WaitForSeconds(delayStart);
+
         while (true)
         {
             if (Time.time - lastFireTime >= fireCooldown)
