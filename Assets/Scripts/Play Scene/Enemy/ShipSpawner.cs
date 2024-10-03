@@ -13,6 +13,7 @@ public class ShipSpawner : MonoBehaviour
     private float spawnPositionY => VariableManager.instance.spawnPositionY;
     private float spawnPositionZ => VariableManager.instance.spawnPositionZ;
     private float initialDelay => VariableManager.instance.initialDelay;
+    private int currentSpawnCount;
 
     private void Start()
     {
@@ -59,5 +60,10 @@ public class ShipSpawner : MonoBehaviour
             Instantiate(prefab, spawnPosition, Quaternion.identity);
             yield return new WaitForSeconds(interval);
         }
+    }
+
+    public int GetCurrentSpawnCount()
+    {
+        return currentSpawnCount;
     }
 }
