@@ -12,6 +12,7 @@ public class ShipSpawnerScene31 : MonoBehaviour
     public float spawnPositionY;
     public float spawnPositionZ;
     public float initialDelay;
+    private int currentSpawnCount;
 
     private void Start()
     {
@@ -56,5 +57,10 @@ public class ShipSpawnerScene31 : MonoBehaviour
             Instantiate(prefab, spawnPosition, Quaternion.identity);
             yield return new WaitForSeconds(interval);
         }
+    }
+
+    public int GetCurrentSpawnCount()
+    {
+        return currentSpawnCount;
     }
 }

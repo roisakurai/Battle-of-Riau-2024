@@ -9,7 +9,7 @@ public class SoldierSpawner : MonoBehaviour
     public float spawnRadius = 4f;
     public float spawnDelay = 5f;
     public float initialDelay = 7f;
-    private int currentSpawnCount = 0;
+    private int currentSpawnCount;
 
     void Start()
     {
