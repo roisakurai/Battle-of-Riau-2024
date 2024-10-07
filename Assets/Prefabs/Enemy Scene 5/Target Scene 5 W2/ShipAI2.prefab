@@ -8023,12 +8023,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d73aa1b4f8e018458dd7fd975970e53, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  patrolPoints:
-  - {fileID: 359933590980535145}
-  - {fileID: 8476975515969027739}
-  - {fileID: 8369985146302051459}
-  - {fileID: 7895922710019949923}
   patrolSpeed: 0.8
+  walkRadius: 10
+  movingPlatform: {fileID: 8870986058069605622}
 --- !u!54 &5854527150632080223
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -9735,12 +9732,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d73aa1b4f8e018458dd7fd975970e53, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  patrolPoints:
-  - {fileID: 359933590980535145}
-  - {fileID: 8476975515969027739}
-  - {fileID: 8369985146302051459}
-  - {fileID: 7895922710019949923}
   patrolSpeed: 0.8
+  walkRadius: 10
+  movingPlatform: {fileID: 8870986058069605622}
 --- !u!54 &5744719133925158804
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -15833,12 +15827,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d73aa1b4f8e018458dd7fd975970e53, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  patrolPoints:
-  - {fileID: 359933590980535145}
-  - {fileID: 8476975515969027739}
-  - {fileID: 8369985146302051459}
-  - {fileID: 7895922710019949923}
   patrolSpeed: 0.8
+  walkRadius: 10
+  movingPlatform: {fileID: 8870986058069605622}
 --- !u!54 &1552190402733521856
 Rigidbody:
   m_ObjectHideFlags: 0
