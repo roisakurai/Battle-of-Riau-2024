@@ -2132,8 +2132,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d73aa1b4f8e018458dd7fd975970e53, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  patrolSpeed: 0.8
-  walkRadius: 10
+  patrolSpeed: 10
+  walkRadius: 2
   movingPlatform: {fileID: 1764855639460708222}
 --- !u!54 &7350695127127951335
 Rigidbody:
@@ -2335,7 +2335,7 @@ Transform:
   m_GameObject: {fileID: 2375671781687124686}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 2.9100037, y: 3.52, z: 1.4000015}
+  m_LocalPosition: {x: 2.91, y: 3.52, z: -4.29}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -4596,8 +4596,6 @@ GameObject:
   - component: {fileID: 5255158637328252239}
   - component: {fileID: 4578009603522622529}
   - component: {fileID: 2020721685289398689}
-  - component: {fileID: 6644143586116870744}
-  - component: {fileID: 7763566168670525923}
   - component: {fileID: 6989199723275084603}
   - component: {fileID: 3816889673422245970}
   m_Layer: 0
@@ -4764,43 +4762,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!195 &6644143586116870744
-NavMeshAgent:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4100910287155048172}
-  m_Enabled: 0
-  m_AgentTypeID: 0
-  m_Radius: 0.5
-  m_Speed: 3.5
-  m_Acceleration: 8
-  avoidancePriority: 50
-  m_AngularSpeed: 120
-  m_StoppingDistance: 0
-  m_AutoTraverseOffMeshLink: 1
-  m_AutoBraking: 1
-  m_AutoRepath: 1
-  m_Height: 2
-  m_BaseOffset: 0
-  m_WalkableMask: 4294967295
-  m_ObstacleAvoidanceType: 4
---- !u!114 &7763566168670525923
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4100910287155048172}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7d73aa1b4f8e018458dd7fd975970e53, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  patrolSpeed: 0.8
-  walkRadius: 10
-  movingPlatform: {fileID: 0}
 --- !u!54 &6989199723275084603
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -7143,8 +7104,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d73aa1b4f8e018458dd7fd975970e53, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  patrolSpeed: 0.8
-  walkRadius: 10
+  patrolSpeed: 10
+  walkRadius: 2
   movingPlatform: {fileID: 1764855639460708222}
 --- !u!54 &5336723404630938760
 Rigidbody:
@@ -7640,8 +7601,6 @@ GameObject:
   - component: {fileID: 2990297911616554720}
   - component: {fileID: 7746204992850022833}
   - component: {fileID: 641113526507515617}
-  - component: {fileID: 7144240348622788146}
-  - component: {fileID: 7811081464603834622}
   - component: {fileID: 4697634753996741369}
   - component: {fileID: 3816336131787213205}
   m_Layer: 0
@@ -7808,43 +7767,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!195 &7144240348622788146
-NavMeshAgent:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6429665877900196968}
-  m_Enabled: 0
-  m_AgentTypeID: 0
-  m_Radius: 0.5
-  m_Speed: 3.5
-  m_Acceleration: 8
-  avoidancePriority: 50
-  m_AngularSpeed: 120
-  m_StoppingDistance: 0
-  m_AutoTraverseOffMeshLink: 1
-  m_AutoBraking: 1
-  m_AutoRepath: 1
-  m_Height: 2
-  m_BaseOffset: 0
-  m_WalkableMask: 4294967295
-  m_ObstacleAvoidanceType: 4
---- !u!114 &7811081464603834622
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6429665877900196968}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7d73aa1b4f8e018458dd7fd975970e53, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  patrolSpeed: 0.8
-  walkRadius: 10
-  movingPlatform: {fileID: 0}
 --- !u!54 &4697634753996741369
 Rigidbody:
   m_ObjectHideFlags: 0

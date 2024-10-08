@@ -945,7 +945,6 @@ GameObject:
   - component: {fileID: 3952276795322970315}
   - component: {fileID: 9092702247975647561}
   - component: {fileID: 8426529184066657721}
-  - component: {fileID: 4917527565144727395}
   m_Layer: 10
   m_Name: Bows
   m_TagString: Untagged
@@ -1312,19 +1311,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ee4df345e57da143a7dcefbc41cdb1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &4917527565144727395
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1273311027892702584}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6c5c6419fc0339944a5fea0451dcc5f7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Lasser: {fileID: 4823564394688985036}
 --- !u!1 &1397731973345951059
 GameObject:
   m_ObjectHideFlags: 0
@@ -3403,7 +3389,6 @@ GameObject:
   - component: {fileID: 625056056727993565}
   - component: {fileID: 5061993265739598290}
   - component: {fileID: 6213927629174787279}
-  - component: {fileID: 4356603715196868410}
   m_Layer: 0
   m_Name: Lesser
   m_TagString: Untagged
@@ -3477,29 +3462,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!136 &4356603715196868410
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4823564394688985036}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5000001
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
 --- !u!1 &4917130563665949459
 GameObject:
   m_ObjectHideFlags: 0
@@ -3616,7 +3578,6 @@ GameObject:
   - component: {fileID: 5520804374693680360}
   - component: {fileID: 3319463513355577217}
   - component: {fileID: 4963162977429705550}
-  - component: {fileID: 4536612449896227148}
   m_Layer: 0
   m_Name: Lesser (1)
   m_TagString: Untagged
@@ -3689,29 +3650,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!136 &4536612449896227148
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5065598114322674789}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5000001
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
 --- !u!1 &5151537133145612636
 GameObject:
   m_ObjectHideFlags: 0
