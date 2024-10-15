@@ -7887,6 +7887,84 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c60357c46a159754eba03905357f7e16, type: 3}
+--- !u!1001 &573782438470024491
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 118957158229134993, guid: 96eecbee5ba1be242b78c62f60ba65a7,
+        type: 3}
+      propertyPath: m_Name
+      value: Character_NPC_Archer
+      objectReference: {fileID: 0}
+    - target: {fileID: 260648835242197569, guid: 96eecbee5ba1be242b78c62f60ba65a7,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -85.409
+      objectReference: {fileID: 0}
+    - target: {fileID: 260648835242197569, guid: 96eecbee5ba1be242b78c62f60ba65a7,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -22.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 260648835242197569, guid: 96eecbee5ba1be242b78c62f60ba65a7,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -16.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 260648835242197569, guid: 96eecbee5ba1be242b78c62f60ba65a7,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 260648835242197569, guid: 96eecbee5ba1be242b78c62f60ba65a7,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 260648835242197569, guid: 96eecbee5ba1be242b78c62f60ba65a7,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 260648835242197569, guid: 96eecbee5ba1be242b78c62f60ba65a7,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 260648835242197569, guid: 96eecbee5ba1be242b78c62f60ba65a7,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 260648835242197569, guid: 96eecbee5ba1be242b78c62f60ba65a7,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 260648835242197569, guid: 96eecbee5ba1be242b78c62f60ba65a7,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2743977702081601740, guid: 96eecbee5ba1be242b78c62f60ba65a7,
+        type: 3}
+      propertyPath: delayStart
+      value: 2.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 2743977702081601740, guid: 96eecbee5ba1be242b78c62f60ba65a7,
+        type: 3}
+      propertyPath: shootCooldown
+      value: 2.45
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 96eecbee5ba1be242b78c62f60ba65a7, type: 3}
 --- !u!4 &575984308344241479
 Transform:
   m_ObjectHideFlags: 0
@@ -9418,6 +9496,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Archer_NPC
+      objectReference: {fileID: 0}
+    - target: {fileID: 8003268064080679197, guid: f19163a246042894d93f89191bac9d7e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13600,6 +13683,74 @@ Transform:
   - {fileID: 7977266380312083302}
   m_Father: {fileID: 7362074138676987345}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &6860733879470463659
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3081498869339881300, guid: 87c69d1de916faa40882acfbe78b3781,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -81.878
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081498869339881300, guid: 87c69d1de916faa40882acfbe78b3781,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -22.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081498869339881300, guid: 87c69d1de916faa40882acfbe78b3781,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -14.062
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081498869339881300, guid: 87c69d1de916faa40882acfbe78b3781,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081498869339881300, guid: 87c69d1de916faa40882acfbe78b3781,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081498869339881300, guid: 87c69d1de916faa40882acfbe78b3781,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081498869339881300, guid: 87c69d1de916faa40882acfbe78b3781,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081498869339881300, guid: 87c69d1de916faa40882acfbe78b3781,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081498869339881300, guid: 87c69d1de916faa40882acfbe78b3781,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081498869339881300, guid: 87c69d1de916faa40882acfbe78b3781,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5593886106775165347, guid: 87c69d1de916faa40882acfbe78b3781,
+        type: 3}
+      propertyPath: m_Name
+      value: Character_NPC_Archer (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 87c69d1de916faa40882acfbe78b3781, type: 3}
 --- !u!1 &6876124798324857182
 GameObject:
   m_ObjectHideFlags: 0
@@ -15943,3 +16094,5 @@ SceneRoots:
   - {fileID: 1972230528}
   - {fileID: 1559381744}
   - {fileID: 2282994304171457407}
+  - {fileID: 573782438470024491}
+  - {fileID: 6860733879470463659}
