@@ -8772,7 +8772,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &403808268
 RectTransform:
   m_ObjectHideFlags: 0
@@ -24725,6 +24725,7 @@ MonoBehaviour:
   canvas: {fileID: 1471025882}
   canvasDeactivateDelay: 20
   teleportMap: {fileID: 24244429}
+  NPCs: []
 --- !u!1001 &1480188267
 PrefabInstance:
   m_ObjectHideFlags: 0

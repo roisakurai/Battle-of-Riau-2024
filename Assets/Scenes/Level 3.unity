@@ -26726,6 +26726,80 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 996ea8254c03884409bdee2ee68884b9, type: 3}
+--- !u!1001 &888804696
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2297778783445039334, guid: 90d169dd91c9283469b9ff927c8bbf06,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2297778783445039334, guid: 90d169dd91c9283469b9ff927c8bbf06,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2297778783445039334, guid: 90d169dd91c9283469b9ff927c8bbf06,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2297778783445039334, guid: 90d169dd91c9283469b9ff927c8bbf06,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2297778783445039334, guid: 90d169dd91c9283469b9ff927c8bbf06,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2297778783445039334, guid: 90d169dd91c9283469b9ff927c8bbf06,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2297778783445039334, guid: 90d169dd91c9283469b9ff927c8bbf06,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2297778783445039334, guid: 90d169dd91c9283469b9ff927c8bbf06,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2297778783445039334, guid: 90d169dd91c9283469b9ff927c8bbf06,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2297778783445039334, guid: 90d169dd91c9283469b9ff927c8bbf06,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2537797067083256289, guid: 90d169dd91c9283469b9ff927c8bbf06,
+        type: 3}
+      propertyPath: soldierFallActiveTime
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7549123377464236414, guid: 90d169dd91c9283469b9ff927c8bbf06,
+        type: 3}
+      propertyPath: m_Name
+      value: ShipAI1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects:
+    - {fileID: 8960366897495236275, guid: 90d169dd91c9283469b9ff927c8bbf06, type: 3}
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 90d169dd91c9283469b9ff927c8bbf06, type: 3}
 --- !u!1 &895429125
 GameObject:
   m_ObjectHideFlags: 0
@@ -120305,3 +120379,4 @@ SceneRoots:
   - {fileID: 61756509}
   - {fileID: 878595852}
   - {fileID: 1067212432}
+  - {fileID: 888804696}
