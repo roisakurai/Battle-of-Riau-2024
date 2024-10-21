@@ -7016,7 +7016,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4281479730
+    rgba: 4294967295
   m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -15541,6 +15541,7 @@ MonoBehaviour:
   canvas: {fileID: 1471025882}
   canvasDeactivateDelay: 20
   teleportMap: {fileID: 0}
+  NPCs: []
 --- !u!4 &1478430053 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400754, guid: 32c513dd4f75bc24692549a1a831b5c3,
@@ -20861,7 +20862,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4281479730
+    rgba: 4294967295
   m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -22525,6 +22526,7 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 1861343896}
+  - {fileID: 1764825764}
   - {fileID: 1223749951}
   - {fileID: 538331748}
   - {fileID: 884373867}
@@ -22535,7 +22537,6 @@ SceneRoots:
   - {fileID: 942018026}
   - {fileID: 806235057}
   - {fileID: 1380306800}
-  - {fileID: 1764825764}
   - {fileID: 288627158}
   - {fileID: 552847654}
   - {fileID: 1381336086}
