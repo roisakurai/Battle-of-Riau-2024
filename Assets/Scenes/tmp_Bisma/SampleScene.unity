@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -589,7 +589,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 15303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9875a245ac49007498213638a307faa1, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -821,6 +821,7 @@ MonoBehaviour:
   spawnPositionX: 0
   spawnPositionY: 0
   spawnPositionZ: 0
+  initialDelay: 0
   rotationSpeed: 10
   maxRotationX: 15
   minRotationX: -15
@@ -829,7 +830,7 @@ MonoBehaviour:
   cannonballForce: 25
   fireCooldown: 1
   cannonballLifetime: 5
-  canonballDamage: 10
+  cannonballDamage: 0
   lineSegments: 50
   cannonballPrefab: {fileID: 8722294456776908751, guid: d945305f1f62f8d43ac5eb88e14de6e6,
     type: 3}

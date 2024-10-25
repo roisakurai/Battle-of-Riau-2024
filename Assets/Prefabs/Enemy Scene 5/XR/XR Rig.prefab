@@ -11705,13 +11705,6 @@ MonoBehaviour:
   btnTeleport5: {fileID: 3435536703042431085}
   btnTeleport6: {fileID: 2053455316556011765}
   image: {fileID: 7473723160100140824}
-  weapons:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
   soundTeleport: {fileID: 8300000, guid: 1f4a626e11ec56047a322d27e74ef75e, type: 3}
   smoothLocomotion: {fileID: 6713412552019247073}
 --- !u!1 &9068536885606913423

@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -859,6 +859,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3717032673209789296, guid: 4ac7df741a9c0a2418ec19477729ee3d,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
     - target: {fileID: 3966781999181966217, guid: 4ac7df741a9c0a2418ec19477729ee3d,
         type: 3}
       propertyPath: m_IsActive
@@ -874,11 +879,26 @@ PrefabInstance:
       propertyPath: m_PresetInfoIsWorld
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4983423911289032433, guid: 4ac7df741a9c0a2418ec19477729ee3d,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+    - target: {fileID: 5298898829617892382, guid: 4ac7df741a9c0a2418ec19477729ee3d,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
     - target: {fileID: 6130294578286966575, guid: 4ac7df741a9c0a2418ec19477729ee3d,
         type: 3}
       propertyPath: m_PresetInfoIsWorld
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6495324966572344658, guid: 4ac7df741a9c0a2418ec19477729ee3d,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
     - target: {fileID: 8320362179581940914, guid: 4ac7df741a9c0a2418ec19477729ee3d,
         type: 3}
       propertyPath: m_Enabled
@@ -1955,8 +1975,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7afd1676fe84fe4082e5a415a2cac2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetPositionCube: {fileID: 1293226341}
-  targetPositionSphere: {fileID: 1840816844}
+  targetPosition1: {fileID: 0}
+  targetPosition2: {fileID: 0}
+  cannon1: {fileID: 0}
+  cannon2: {fileID: 0}
+  btnTeleport1: {fileID: 0}
+  btnTeleport2: {fileID: 0}
+  image: {fileID: 0}
+  soundTeleport: {fileID: 0}
+  smoothLocomotion: {fileID: 0}
 --- !u!1 &1447052316
 GameObject:
   m_ObjectHideFlags: 0
@@ -3147,8 +3174,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7afd1676fe84fe4082e5a415a2cac2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetPositionCube: {fileID: 0}
-  targetPositionSphere: {fileID: 0}
+  targetPosition1: {fileID: 0}
+  targetPosition2: {fileID: 0}
+  cannon1: {fileID: 0}
+  cannon2: {fileID: 0}
+  btnTeleport1: {fileID: 0}
+  btnTeleport2: {fileID: 0}
+  image: {fileID: 0}
+  soundTeleport: {fileID: 0}
+  smoothLocomotion: {fileID: 0}
 --- !u!1 &2003168479
 GameObject:
   m_ObjectHideFlags: 0

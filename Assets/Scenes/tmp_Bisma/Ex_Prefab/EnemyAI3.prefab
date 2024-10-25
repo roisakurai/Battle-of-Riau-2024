@@ -151,6 +151,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 20
   healthbar: {fileID: 6784418312224115161}
+  particleExplosion: {fileID: 0}
+  fireObjects: []
 --- !u!1 &2895392190533152499
 GameObject:
   m_ObjectHideFlags: 0

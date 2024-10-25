@@ -537,3 +537,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 100
   healthbar: {fileID: 4826242508657442262}
+  particleExplosion: {fileID: 0}
+  fireObjects: []

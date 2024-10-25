@@ -2442,6 +2442,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 20
   healthbar: {fileID: 3564099427247015428}
+  currentHealth: 0
+  addPoints: 10
 --- !u!82 &3598769959696879206
 AudioSource:
   m_ObjectHideFlags: 0

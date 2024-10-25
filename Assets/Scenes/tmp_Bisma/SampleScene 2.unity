@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -162,6 +162,7 @@ MonoBehaviour:
   spawnPositionX: 0
   spawnPositionY: 0
   spawnPositionZ: 0
+  initialDelay: 0
   rotationSpeed: 0
   maxRotationX: 0
   minRotationX: 0
@@ -170,7 +171,7 @@ MonoBehaviour:
   cannonballForce: 0
   fireCooldown: 0
   cannonballLifetime: 0
-  canonballDamage: 0
+  cannonballDamage: 0
   lineSegments: 0
   cannonballPrefab: {fileID: 0}
   poolSize: 0
@@ -1431,7 +1432,8 @@ MonoBehaviour:
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_fontSharedMaterials: []
+  m_fontSharedMaterials:
+  - {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
@@ -1626,10 +1628,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyPrefabs: []
-  numberSpawn: 5
-  spawnTotal: 10
+  numberToSpawn: 1
+  totalSpawnLimit: 10
   spawnRadius: 4
   spawnDelay: 0
+  initialDelay: 7
 --- !u!4 &2100402687
 Transform:
   m_ObjectHideFlags: 0
@@ -1824,6 +1827,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   arrowDamage: 25
+  groundHitSound: {fileID: 0}
+  enemyHitSound: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -5709,18 +5709,6 @@ PrefabInstance:
 --- !u!4 &384559799 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 410482, guid: 6ae68959b612294439ad6fba98298aa5,
-    type: 3}
-  m_PrefabInstance: {fileID: 384559798}
-  m_PrefabAsset: {fileID: 0}
---- !u!198 &384559800 stripped
-ParticleSystem:
-  m_CorrespondingSourceObject: {fileID: 3402058934954293333, guid: 6ae68959b612294439ad6fba98298aa5,
-    type: 3}
-  m_PrefabInstance: {fileID: 384559798}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &384559801 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1079862140862787546, guid: 6ae68959b612294439ad6fba98298aa5,
     type: 3}
   m_PrefabInstance: {fileID: 384559798}
   m_PrefabAsset: {fileID: 0}
@@ -14562,7 +14550,8 @@ MonoBehaviour:
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
   m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
-  m_fontSharedMaterials: []
+  m_fontSharedMaterials:
+  - {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
@@ -16668,8 +16657,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cannonBody: {fileID: 384559802}
   cannonWheel: {fileID: 384559799}
-  shotPoint: {fileID: 384559801}
-  smokeEffect: {fileID: 384559800}
+  shotPoint: {fileID: 0}
+  smokeEffect: {fileID: 0}
   cannonballPrefab: {fileID: 8320154597029574181, guid: 444e48799ce82b44082f9063c0fdce49,
     type: 3}
   aimProjectionLine: {fileID: 1047481831}
@@ -19618,7 +19607,8 @@ MonoBehaviour:
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
   m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
-  m_fontSharedMaterials: []
+  m_fontSharedMaterials:
+  - {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
@@ -26371,8 +26361,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cannonController: {fileID: 1901134308}
-  fuse: {fileID: 1984334711}
-  spark: {fileID: 1984334710}
+  fuse: {fileID: 0}
+  spark: {fileID: 0}
   fuseDelay: 1
   fuseCooldown: 2
 --- !u!199 &1554028060
@@ -36628,8 +36618,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cannonBody: {fileID: 1984334709}
   cannonWheel: {fileID: 1984334708}
-  shotPoint: {fileID: 1984334707}
-  smokeEffect: {fileID: 1984334706}
+  shotPoint: {fileID: 0}
+  smokeEffect: {fileID: 0}
   cannonballPrefab: {fileID: 8320154597029574181, guid: 444e48799ce82b44082f9063c0fdce49,
     type: 3}
   aimProjectionLine: {fileID: 1901134306}
@@ -37601,18 +37591,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6ae68959b612294439ad6fba98298aa5, type: 3}
---- !u!198 &1984334706 stripped
-ParticleSystem:
-  m_CorrespondingSourceObject: {fileID: 3402058934954293333, guid: 6ae68959b612294439ad6fba98298aa5,
-    type: 3}
-  m_PrefabInstance: {fileID: 1984334705}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &1984334707 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1079862140862787546, guid: 6ae68959b612294439ad6fba98298aa5,
-    type: 3}
-  m_PrefabInstance: {fileID: 1984334705}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1984334708 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 410482, guid: 6ae68959b612294439ad6fba98298aa5,
@@ -37622,18 +37600,6 @@ Transform:
 --- !u!4 &1984334709 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 499350, guid: 6ae68959b612294439ad6fba98298aa5,
-    type: 3}
-  m_PrefabInstance: {fileID: 1984334705}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1984334710 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8970783030205466854, guid: 6ae68959b612294439ad6fba98298aa5,
-    type: 3}
-  m_PrefabInstance: {fileID: 1984334705}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1984334711 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4931959790950742966, guid: 6ae68959b612294439ad6fba98298aa5,
     type: 3}
   m_PrefabInstance: {fileID: 1984334705}
   m_PrefabAsset: {fileID: 0}

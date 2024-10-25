@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -9083,6 +9083,9 @@ MonoBehaviour:
   smokeEffect: {fileID: 801383079}
   cannonballPrefab: {fileID: 8320154597029574181, guid: 444e48799ce82b44082f9063c0fdce49,
     type: 3}
+  aimProjectionLine: {fileID: 0}
+  numAimProjectionPoints: 100
+  aimProjectionDistance: 0
 --- !u!4 &376333237
 Transform:
   m_ObjectHideFlags: 0
@@ -16448,6 +16451,7 @@ MonoBehaviour:
   spawnPositionX: -200
   spawnPositionY: 1
   spawnPositionZ: -140
+  initialDelay: 0
 --- !u!4 &640603010
 Transform:
   m_ObjectHideFlags: 0
@@ -26341,6 +26345,9 @@ MonoBehaviour:
   smokeEffect: {fileID: 2057694767}
   cannonballPrefab: {fileID: 8320154597029574181, guid: 444e48799ce82b44082f9063c0fdce49,
     type: 3}
+  aimProjectionLine: {fileID: 0}
+  numAimProjectionPoints: 100
+  aimProjectionDistance: 0
 --- !u!82 &1019735411
 AudioSource:
   m_ObjectHideFlags: 0
@@ -48634,6 +48641,7 @@ MonoBehaviour:
   spawnPositionX: -200
   spawnPositionY: 2
   spawnPositionZ: 50
+  initialDelay: 0
   rotationSpeed: 10
   maxRotationX: 15
   minRotationX: -10
@@ -48642,7 +48650,7 @@ MonoBehaviour:
   cannonballForce: 50
   fireCooldown: 1
   cannonballLifetime: 5
-  canonballDamage: 10
+  cannonballDamage: 0
   lineSegments: 60
   cannonballPrefab: {fileID: 8320154597029574181, guid: 444e48799ce82b44082f9063c0fdce49,
     type: 3}
@@ -54830,6 +54838,9 @@ MonoBehaviour:
   smokeEffect: {fileID: 1181967105}
   cannonballPrefab: {fileID: 8320154597029574181, guid: 444e48799ce82b44082f9063c0fdce49,
     type: 3}
+  aimProjectionLine: {fileID: 0}
+  numAimProjectionPoints: 100
+  aimProjectionDistance: 0
 --- !u!82 &1647839839
 AudioSource:
   m_ObjectHideFlags: 0
@@ -85299,6 +85310,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nextButton: {fileID: 4338668254899470431}
   fallDownCountThreshold: 8
+  NPC_TeamArray: []
 --- !u!114 &2124277987
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -98209,7 +98221,8 @@ MonoBehaviour:
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
   m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
-  m_fontSharedMaterials: []
+  m_fontSharedMaterials:
+  - {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
@@ -107217,7 +107230,8 @@ MonoBehaviour:
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
   m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
-  m_fontSharedMaterials: []
+  m_fontSharedMaterials:
+  - {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
@@ -118020,7 +118034,6 @@ MonoBehaviour:
   - {fileID: 1442787914}
   image: {fileID: 7632283972891561056}
   soundTeleport: {fileID: 8300000, guid: 1f4a626e11ec56047a322d27e74ef75e, type: 3}
-  smoothLocomotion: {fileID: 5958328641640421420}
 --- !u!4 &9060296188813707746
 Transform:
   m_ObjectHideFlags: 0
