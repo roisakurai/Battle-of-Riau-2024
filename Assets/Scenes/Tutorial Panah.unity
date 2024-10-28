@@ -2024,6 +2024,7 @@ GameObject:
   - component: {fileID: 162136394}
   - component: {fileID: 162136396}
   - component: {fileID: 162136395}
+  - component: {fileID: 162136397}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -2070,7 +2071,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Selamat Datang di Tutorial Memanah
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f170b69380b50d540bdbf4594294f084, type: 2}
   m_sharedMaterial: {fileID: 8537860107694387426, guid: f170b69380b50d540bdbf4594294f084,
@@ -2149,6 +2150,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 162136393}
   m_CullTransparentMesh: 1
+--- !u!114 &162136397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 162136393}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fa406e126501c5488b1207d7fa4b991, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textMeshPro: {fileID: 162136395}
+  typingSpeed: 0.05
+  fullText: Selamat Datang di Tutorial Memanah
 --- !u!1001 &165717134
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2771,6 +2787,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 194584371}
+  - component: {fileID: 194584372}
   m_Layer: 5
   m_Name: Info Teleport
   m_TagString: Untagged
@@ -2800,6 +2817,22 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 3.5}
   m_SizeDelta: {x: 30, y: 16.318}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &194584372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 194584370}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2d8c55be003de043a829ad3a997abcb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  button: {fileID: 1983292005}
+  delay: 2.5
+  animationDuration: 0.5
+  appearSound: {fileID: 8300000, guid: 586162b136904564ba8aa34fec4dce6f, type: 3}
 --- !u!1 &205479110
 GameObject:
   m_ObjectHideFlags: 0
@@ -2809,6 +2842,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 205479111}
+  - component: {fileID: 205479112}
   m_Layer: 5
   m_Name: Info Teleport (3)
   m_TagString: Untagged
@@ -2840,6 +2874,22 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 3.63}
   m_SizeDelta: {x: 30, y: 15.5529995}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &205479112
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 205479110}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2d8c55be003de043a829ad3a997abcb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  button: {fileID: 1241808921}
+  delay: 3.5
+  animationDuration: 0.5
+  appearSound: {fileID: 8300000, guid: 586162b136904564ba8aa34fec4dce6f, type: 3}
 --- !u!1001 &212724555
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8336,13 +8386,14 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 757397983}
+  - component: {fileID: 757397984}
   m_Layer: 5
   m_Name: Info Teleport (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &757397983
 RectTransform:
   m_ObjectHideFlags: 0
@@ -8368,6 +8419,22 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 3.63}
   m_SizeDelta: {x: 30, y: 15.5529995}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &757397984
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 757397982}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2d8c55be003de043a829ad3a997abcb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  button: {fileID: 816135759}
+  delay: 3.3
+  animationDuration: 0.5
+  appearSound: {fileID: 8300000, guid: 586162b136904564ba8aa34fec4dce6f, type: 3}
 --- !u!1 &781753470
 GameObject:
   m_ObjectHideFlags: 0
@@ -9954,6 +10021,7 @@ GameObject:
   - component: {fileID: 830480564}
   - component: {fileID: 830480566}
   - component: {fileID: 830480565}
+  - component: {fileID: 830480567}
   m_Layer: 5
   m_Name: Text (1)
   m_TagString: Untagged
@@ -10000,7 +10068,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Letakkan anak panah pada tali busur, tarik dan lepas tombol grip
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f170b69380b50d540bdbf4594294f084, type: 2}
   m_sharedMaterial: {fileID: 8537860107694387426, guid: f170b69380b50d540bdbf4594294f084,
@@ -10078,6 +10146,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 830480563}
   m_CullTransparentMesh: 1
+--- !u!114 &830480567
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 830480563}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fa406e126501c5488b1207d7fa4b991, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textMeshPro: {fileID: 830480565}
+  typingSpeed: 0.05
+  fullText: Letakkan anak panah pada tali busur, tarik dan lepas tombol grip
 --- !u!4 &833437763 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4875443616944810, guid: 915b0c9e0c6447446b7ddfec2be137f7,
@@ -12199,6 +12282,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1005231478}
+  - component: {fileID: 1005231479}
   m_Layer: 5
   m_Name: Info Teleport (1)
   m_TagString: Untagged
@@ -12231,6 +12315,22 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 3.63}
   m_SizeDelta: {x: 30, y: 15.5529995}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1005231479
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1005231477}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2d8c55be003de043a829ad3a997abcb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  button: {fileID: 2095075094}
+  delay: 3
+  animationDuration: 0.5
+  appearSound: {fileID: 8300000, guid: 586162b136904564ba8aa34fec4dce6f, type: 3}
 --- !u!1 &1009828783
 GameObject:
   m_ObjectHideFlags: 0
@@ -20337,6 +20437,7 @@ GameObject:
   - component: {fileID: 1718028958}
   - component: {fileID: 1718028960}
   - component: {fileID: 1718028959}
+  - component: {fileID: 1718028961}
   m_Layer: 5
   m_Name: Text (1)
   m_TagString: Untagged
@@ -20383,9 +20484,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Letakkan tangan kiri di dekat Busur dan tekan grip
-
-'
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f170b69380b50d540bdbf4594294f084, type: 2}
   m_sharedMaterial: {fileID: 8537860107694387426, guid: f170b69380b50d540bdbf4594294f084,
@@ -20463,6 +20562,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1718028957}
   m_CullTransparentMesh: 1
+--- !u!114 &1718028961
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1718028957}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fa406e126501c5488b1207d7fa4b991, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textMeshPro: {fileID: 1718028959}
+  typingSpeed: 0.05
+  fullText: 'Letakkan tangan kiri di dekat Busur dan tekan grip '
 --- !u!1001 &1718882279
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20661,7 +20775,7 @@ Transform:
   m_GameObject: {fileID: 1732812841}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0, y: 0.4, z: -0.65}
+  m_LocalPosition: {x: 0, y: 0.4, z: -0.572}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -25921,6 +26035,7 @@ GameObject:
   - component: {fileID: 2141900955}
   - component: {fileID: 2141900957}
   - component: {fileID: 2141900956}
+  - component: {fileID: 2141900958}
   m_Layer: 5
   m_Name: Text (1)
   m_TagString: Untagged
@@ -25967,7 +26082,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Arahkan Tanggan kanan ke belakang punggung dan tekan grip
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f170b69380b50d540bdbf4594294f084, type: 2}
   m_sharedMaterial: {fileID: 8537860107694387426, guid: f170b69380b50d540bdbf4594294f084,
@@ -26045,6 +26160,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2141900954}
   m_CullTransparentMesh: 1
+--- !u!114 &2141900958
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2141900954}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fa406e126501c5488b1207d7fa4b991, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textMeshPro: {fileID: 2141900956}
+  typingSpeed: 0.05
+  fullText: Arahkan tangan kanan ke belakang punggung dan tekan grip
 --- !u!1001 &872812992021736213
 PrefabInstance:
   m_ObjectHideFlags: 0
