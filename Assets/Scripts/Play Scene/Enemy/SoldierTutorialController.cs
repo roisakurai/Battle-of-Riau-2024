@@ -82,8 +82,6 @@ public class SoldierTutorialController : MonoBehaviour
     private float currentHealth;
     private AudioSource audioSource; // Pastikan AudioSource ada di GameObject ini
 
-    public int addPoints = 10;
-
     void Start()
     {
         currentHealth = maxHealth;
@@ -123,16 +121,6 @@ public class SoldierTutorialController : MonoBehaviour
 
     void Die()
     {
-        // Pastikan ScoreManager instance tidak null
-        if (ScoreManager.instance != null)
-        {
-            ScoreManager.instance.AddScore(addPoints);
-        }
-        else
-        {
-            Debug.LogError("ScoreManager instance is not set.");
-        }
-
         // Pastikan audioSource tidak null sebelum menggunakan
         if (audioSource != null)
         {

@@ -1,37 +1,19 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
+using TMPro;
 
 public class ScoreManager : MonoBehaviour
-{
-    public static ScoreManager instance;
-    private int score = 0;
-    
-    private TMPro.TextMeshProUGUI scoreText => VariableManager.instance.scoreText;
+{    
+    private int score;
+    public TMP_Text scoreTextRealTime;
+    public TMP_Text scoreTextFinish;
 
-    private void Awake()
+    // Update is called once per frame
+    public void AddScore(int points)
     {
-        if (instance == null)
-        {
-            instance = this;
-        }
-        else
-        {
-            Destroy(this.gameObject);
-            return;
-        }
-    }
-
-    public void AddScore(int amount)
-    {
-        score += amount;
-        UpdateScoreText();
-    }
-
-    void UpdateScoreText()
-    {
-        if (scoreText != null)
-        {
-            scoreText.text = $"{score}";
-        }
+        score += points;
+        scoreTextRealTime.text = "" + score;
+        scoreTextFinish.text = "" + score;
     }
 }

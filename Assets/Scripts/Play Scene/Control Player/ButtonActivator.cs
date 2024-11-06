@@ -3,7 +3,7 @@ using UnityEngine;
 public class ButtonActivator : MonoBehaviour
 {
     public GameObject nextButton;
-    public int fallDownCountThreshold = 6;
+    public int fallDownCountThreshold;
     public GameObject[] NPC_TeamArray; // Array untuk menyimpan beberapa NPC
     private int fallDownCount = 0;
 

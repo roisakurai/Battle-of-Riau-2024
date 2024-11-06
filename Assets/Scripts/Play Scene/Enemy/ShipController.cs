@@ -13,12 +13,20 @@ public class ShipController : MonoBehaviour
     private int currentFireIndex = 0;
 
     private float fallDownSpeed => VariableManager.instance.fallDownSpeed;
-    private int addPoints => VariableManager.instance.addPoints;
+
+    // Reference to ScoreManager
+    public ScoreManager scoreManager;
 
     void Start()
     {
         currentHealth = maxHealth;
         healthbar.UpdateHealthbar(maxHealth, currentHealth);
+
+        scoreManager = FindObjectOfType<ScoreManager>();
+        if (scoreManager == null)
+        {
+            Debug.LogError("ScoreManager tidak ditemukan di scene.");
+        }
     }
 
     void Update()
@@ -42,6 +50,10 @@ public class ShipController : MonoBehaviour
 
         if (currentHealth <= 0 && !isDead)
         {
+            if (scoreManager != null)
+            {
+                scoreManager.AddScore(10); // Add a fixed score (10 points)
+            }
             Die();
         }
     }
@@ -58,8 +70,7 @@ public class ShipController : MonoBehaviour
     void Die()
     {
         isDead = true;
-        ScoreManager.instance.AddScore(addPoints);
-
+        // Update score when ship dies (fixed points of 10)
         Destroy(GetComponent<Rigidbody>());
         Destroy(GetComponent<BoxCollider>());
 
