@@ -12,8 +12,8 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: DefaultCompany
-  productName: Battle of Riau - URP
+  companyName: DigiArs Studio
+  productName: Battle of Riau
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -135,7 +135,7 @@ PlayerSettings:
   vulkanEnableLateAcquireNextImage: 0
   vulkanEnableCommandBufferRecycling: 1
   loadStoreDebugModeEnabled: 0
-  bundleVersion: 1.82
+  bundleVersion: 2.0
   preloadedAssets:
   - {fileID: 0}
   - {fileID: 0}
@@ -196,10 +196,6 @@ PlayerSettings:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
-  - {fileID: 866923491411958934, guid: 68318bdde2179be40a99a3ee4e716376, type: 2}
-  - {fileID: 11400000, guid: cf8cd32dfe8f4114ab769424f66c50b3, type: 2}
-  - {fileID: 11400000, guid: d3192288b900b0e4f9410f4e24dcbed6, type: 2}
-  - {fileID: 7531782663218267136, guid: 47b456ab8a2b2774bb16fabdfcd34e25, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -219,7 +215,7 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    Android: com.DefaultCompany.BattleofRiauURP
+    Android: com.DigiArsStudio.BattleofRiau
     Standalone: com.DefaultCompany.Battle-of-Riau---URP
   buildNumber:
     Standalone: 0
