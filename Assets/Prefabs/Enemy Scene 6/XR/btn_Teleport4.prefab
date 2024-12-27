@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &2008168460373733313
+--- !u!1 &4942659036851281076
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,10 +8,10 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 8310910448075768915}
-  - component: {fileID: 1225325577435076824}
-  - component: {fileID: 2371342651066428097}
-  - component: {fileID: 6723065713971679948}
+  - component: {fileID: 6904069537554989939}
+  - component: {fileID: 4085810965632945266}
+  - component: {fileID: 2812859262519464721}
+  - component: {fileID: 4327431056789771633}
   m_Layer: 5
   m_Name: btn_Teleport4
   m_TagString: Untagged
@@ -19,15 +19,15 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &8310910448075768915
+--- !u!224 &6904069537554989939
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2008168460373733313}
+  m_GameObject: {fileID: 4942659036851281076}
   m_LocalRotation: {x: -0, y: -0, z: -0.70710707, w: 0.7071065}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -35,24 +35,24 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 99, y: -95}
+  m_AnchoredPosition: {x: 142, y: 193}
   m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!222 &1225325577435076824
+--- !u!222 &4085810965632945266
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2008168460373733313}
+  m_GameObject: {fileID: 4942659036851281076}
   m_CullTransparentMesh: 1
---- !u!114 &2371342651066428097
+--- !u!114 &2812859262519464721
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2008168460373733313}
+  m_GameObject: {fileID: 4942659036851281076}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
@@ -86,13 +86,13 @@ MonoBehaviour:
     m_SelectedTrigger: Highlighted
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 6723065713971679948}
+  m_TargetGraphic: {fileID: 4327431056789771633}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: TeleportScene1, Assembly-CSharp
-        m_MethodName: TeleportToTarget2
+        m_TargetAssemblyTypeName: TeleportScene4, Assembly-CSharp
+        m_MethodName: TeleportToTarget4
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -102,13 +102,13 @@ MonoBehaviour:
           m_StringArgument: 1-1 Anim Scene
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &6723065713971679948
+--- !u!114 &4327431056789771633
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2008168460373733313}
+  m_GameObject: {fileID: 4942659036851281076}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
