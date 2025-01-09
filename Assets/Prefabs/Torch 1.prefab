@@ -48,7 +48,7 @@ MonoBehaviour:
   SelectedHandPose: {fileID: 0}
   HandPose: 0
   LeftHandIsValid: 1
-  RightHandIsValid: 0
+  RightHandIsValid: 1
   HandPosition: {fileID: 0}
   MaxDegreeDifferenceAllowed: 360
   IndexBlendMin: 0
