@@ -153,6 +153,7 @@ MonoBehaviour:
   healthbar: {fileID: 6784418312224115161}
   particleExplosion: {fileID: 0}
   fireObjects: []
+  scoreManager: {fileID: 0}
 --- !u!1 &2895392190533152499
 GameObject:
   m_ObjectHideFlags: 0

@@ -16,6 +16,7 @@ TagManager:
   - lb_bird
   - Arrow
   - Explosion
+  - Cannon Ball
   layers:
   - Default
   - TransparentFX

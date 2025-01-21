@@ -216,7 +216,7 @@ PlayerSettings:
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
     Android: com.DigiArsStudio.BattleofRiau
-    Standalone: com.DefaultCompany.Battle-of-Riau---URP
+    Standalone: com.DigiArs-Studio.Battle-of-Riau
   buildNumber:
     Standalone: 0
     VisionOS: 0

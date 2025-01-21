@@ -6,25 +6,37 @@ public class ENMY_BoomDamage : MonoBehaviour
 
     private void Start()
     {
-
+        // Kosong atau dapat diisi sesuai kebutuhan
     }
 
     private void OnTriggerEnter(Collider other)
     {
+        // Periksa apakah collider bertabrakan dengan tag "Enemy"
         if (other.CompareTag("Enemy"))
         {
-            SoldierController enemyHP = other.GetComponent<SoldierController>();
-            if (enemyHP != null)
+            // Coba dapatkan komponen SoldierController
+            SoldierController soldierHP = other.GetComponent<SoldierController>();
+            if (soldierHP != null)
             {
-                enemyHP.TakeDamage(BoomDamage);
+                soldierHP.TakeDamage(BoomDamage);
+                Die();
+                return; // Keluar agar tidak melanjutkan logika berikut
             }
-            Die();
+
+            // Coba dapatkan komponen ShipController jika SoldierController tidak ditemukan
+            ShipController shipHP = other.GetComponent<ShipController>();
+            if (shipHP != null)
+            {
+                shipHP.TakeDamage(BoomDamage);
+                Die();
+            }
         }
     }
 
     void Die()
     {
-        Invoke(nameof(DestroyBoom),1f);
+        // Hancurkan objek dengan jeda 1 detik
+        Invoke(nameof(DestroyBoom), 1f);
     }
 
     void DestroyBoom()

@@ -51,7 +51,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Barrel: {fileID: 1176846747988449525}
-  Explosion: {fileID: 2887856161684916659}
+  Explosions:
+  - {fileID: 2887856161684916659}
   range: 5
 --- !u!82 &6547592383839675094
 AudioSource:

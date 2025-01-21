@@ -580,3 +580,4 @@ MonoBehaviour:
   healthbar: {fileID: 6870818910282630903}
   particleExplosion: {fileID: 0}
   fireObjects: []
+  scoreManager: {fileID: 0}

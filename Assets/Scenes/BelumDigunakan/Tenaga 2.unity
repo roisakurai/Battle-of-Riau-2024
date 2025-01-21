@@ -11059,6 +11059,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 508c79271050e2e4ba11dd760fb0e5fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scoreTextRealTime: {fileID: 0}
+  scoreTextFinish: {fileID: 0}
 --- !u!1001 &663373487
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16910,6 +16912,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 508c79271050e2e4ba11dd760fb0e5fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scoreTextRealTime: {fileID: 0}
+  scoreTextFinish: {fileID: 0}
 --- !u!1001 &1057740107
 PrefabInstance:
   m_ObjectHideFlags: 0

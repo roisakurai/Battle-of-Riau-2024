@@ -11552,6 +11552,7 @@ MonoBehaviour:
   fireObjects:
   - {fileID: 4330965357309979204}
   - {fileID: 8819834999330287852}
+  scoreManager: {fileID: 0}
 --- !u!1001 &4567130728120698189
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -3834,6 +3834,7 @@ MonoBehaviour:
   - {fileID: 6409684863948707876}
   - {fileID: 7227306550852252806}
   - {fileID: 6540914287852852838}
+  scoreManager: {fileID: 0}
 --- !u!65 &3799950741607876631
 BoxCollider:
   m_ObjectHideFlags: 0

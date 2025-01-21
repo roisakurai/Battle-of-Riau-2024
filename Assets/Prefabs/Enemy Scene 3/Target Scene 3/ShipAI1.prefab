@@ -11279,6 +11279,7 @@ MonoBehaviour:
   fireObjects:
   - {fileID: 4330965356654615706}
   - {fileID: 8819834998945449522}
+  scoreManager: {fileID: 0}
 --- !u!65 &8108491504411293847
 BoxCollider:
   m_ObjectHideFlags: 0

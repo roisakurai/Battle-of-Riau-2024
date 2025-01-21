@@ -5496,6 +5496,7 @@ MonoBehaviour:
   - {fileID: 2582996605187845159}
   - {fileID: 7122741792579591487}
   - {fileID: 4546857337417750470}
+  scoreManager: {fileID: 0}
 --- !u!65 &8251652328201892297
 BoxCollider:
   m_ObjectHideFlags: 0

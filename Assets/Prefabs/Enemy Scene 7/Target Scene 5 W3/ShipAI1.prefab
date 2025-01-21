@@ -11350,7 +11350,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 80
+  m_Constraints: 112
   m_CollisionDetection: 0
 --- !u!136 &5625753727140561501
 CapsuleCollider:
@@ -11393,6 +11393,7 @@ MonoBehaviour:
   fireObjects:
   - {fileID: 4330965356654615706}
   - {fileID: 8819834998945449522}
+  scoreManager: {fileID: 0}
 --- !u!65 &8108491504411293847
 BoxCollider:
   m_ObjectHideFlags: 0
